@@ -1,0 +1,13 @@
+{
+    "name": "quartz_simulator_v2",
+    "build": {
+        "dockerfile": "../Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "Vue.volar"
+            ]
+        }
+    }
+}
