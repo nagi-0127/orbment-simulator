@@ -1,0 +1,43 @@
+.EARTH {
+  background-color: #862;
+  color: #fff;
+}
+
+.WATER {
+  background-color: #259;
+  color: #fff;
+}
+
+.FIRE {
+  background-color: #a33;
+  color: #fff;
+}
+
+.WIND {
+  background-color: #373;
+  color: #fff;
+}
+
+.TIME {
+  background-color: #426;
+  color: #fff;
+}
+
+.SKY {
+  background-color: #662;
+  color: #fff;
+}
+
+.MIRAGE {
+  background-color: #888;
+  color: #fff;
+}
+
+td {
+  min-width: 3rem;
+  max-width: 10rem;
+}
+
+.none {
+  background-color: black;
+}
