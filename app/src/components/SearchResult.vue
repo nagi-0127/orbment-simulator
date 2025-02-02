@@ -41,7 +41,7 @@ const props = defineProps<{
 }>()
 
 const lines: Lines[] = ['WEAPON', 'SHIELD', 'DRIVE', 'EXTRA']
-const opened = ref<Lines[]>(['WEAPON', 'SHIELD', 'DRIVE', 'EXTRA'])
+const opened = ref<Lines[]>([])
 const activeSkills = computed<{ [key in Lines]?: (Skill)[] }>(() => {
   const result: { [key in Lines]?: (Skill)[] } = {}
   for (const key of Object.keys(props.result)) {

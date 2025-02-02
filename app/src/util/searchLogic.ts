@@ -193,28 +193,42 @@ export const searchQuartzSet = (character: Character, selectedSkills: { [key in 
     const resultSet: { [key in Lines]?: (Quartz | null)[] }[] = []
     const resultVal: { [key in Lines]?: (Quartz | null)[] } = {}
     for (const line of Object.keys(lineInfo)) {
+      // 検索結果をスロット位置（属性専用の場合は位置固定, それ以外は-1）, クオーツIDに分解
       const idSet = Object.keys(result)
         .filter(k => k.startsWith(line))
         .map(id => {
           const [_, pos, qid] = id.split('_')
           return [parseInt(pos), parseInt(qid)]
         })
-      const quartzList: (Quartz | null)[] = Array(lineInfo[line as Lines].length)
-      quartzList.fill(null)
+      // const quartzList: (Quartz | null)[] = Array(lineInfo[line as Lines].length)
+      // quartzList.fill(null)
+      const quartzList: (Quartz | null)[] = []
       // セット位置が正の順でソート（属性専用のスロットを先にセットする）
-      idSet.sort((a, b) => b[0] - a[0]).forEach(([pos, qid], idx) => {
-        const quartz: Quartz = selectedQuartz.filter(val => val.id == qid)[0]
-        if (pos >= 0) {
-          // 属性専用の場合は位置固定
-          quartzList[pos] = {
-            ...quartz,
-            // ポイント2倍
-            point: pointMultiply(quartz.point)
+      lineInfo[line as Lines].forEach(slot => {
+        if (slot.typeSpecified) {
+          const id = idSet.filter(([p, _]) => p === slot.position)?.[0]
+          if (id) {
+            idSet.splice(idSet.indexOf(id), 1)
+            const quartz: Quartz = selectedQuartz.filter(val => val.id == id[1])[0]
+            quartzList.push({
+              ...quartz,
+              // ポイント2倍
+              point: pointMultiply(quartz.point)
+            })
+          } else {
+            quartzList.push(null)
           }
         } else {
-          // それ以外は端からセット
-          const idx = quartzList.findIndex(v => v === null)
-          quartzList[idx] = quartz
+          const id = idSet.filter(([p, _]) => p === -1)?.[0]
+          if (id) {
+            idSet.splice(idSet.indexOf(id), 1)
+            const quartz: Quartz = selectedQuartz.filter(val => val.id == id[1])[0]
+            quartzList.push({
+              ...quartz,
+            })
+          } else {
+            quartzList.push(null)
+          }
         }
       })
       resultVal[line as Lines] = quartzList
