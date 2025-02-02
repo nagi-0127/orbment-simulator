@@ -1,0 +1,4638 @@
+[
+  {
+    "id": 1,
+    "name": "ヴァン",
+    "orbment": {
+      "WEAPON": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "TIME"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "SHIELD": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "TIME"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "DRIVE": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "EXTRA": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "name": "アニエス",
+    "orbment": {
+      "WEAPON": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "SHIELD": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "SKY"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "DRIVE": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "WATER"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "EXTRA": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "SKY"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "name": "フェリ",
+    "orbment": {
+      "WEAPON": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "FIRE"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "SHIELD": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "DRIVE": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "MIRAGE"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "EXTRA": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "FIRE"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "name": "アーロン",
+    "orbment": {
+      "WEAPON": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "WIND"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "SHIELD": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "FIRE"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "DRIVE": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "EXTRA": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "WIND"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "name": "リゼット",
+    "orbment": {
+      "WEAPON": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "SHIELD": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "WATER"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "DRIVE": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "WIND"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "EXTRA": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "WATER"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "name": "カトル",
+    "orbment": {
+      "WEAPON": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "SHIELD": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "DRIVE": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "SKY"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "EXTRA": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "name": "ジュディス",
+    "orbment": {
+      "WEAPON": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "TIME"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "SHIELD": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "DRIVE": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "MIRAGE"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "EXTRA": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "MIRAGE"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "name": "ベルガルド",
+    "orbment": {
+      "WEAPON": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "SKY"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "SHIELD": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "DRIVE": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "SKY"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "EXTRA": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "name": "エレイン",
+    "orbment": {
+      "WEAPON": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "MIRAGE"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "SHIELD": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "WIND"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "DRIVE": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "MIRAGE"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "EXTRA": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "name": "ヨルダ",
+    "orbment": {
+      "WEAPON": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "SHIELD": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "TIME"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "DRIVE": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "TIME"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "EXTRA": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "FIRE"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "name": "レン",
+    "orbment": {
+      "WEAPON": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "SKY"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "SHIELD": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "DRIVE": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "MIRAGE"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "EXTRA": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "MIRAGE"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "name": "シズナ",
+    "orbment": {
+      "WEAPON": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "WATER"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "SHIELD": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "TIME"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "DRIVE": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "EXTRA": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "WATER"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "name": "リィン",
+    "orbment": {
+      "WEAPON": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "FIRE"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "SHIELD": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "FIRE"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "DRIVE": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "EXTRA": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "TIME"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "name": "アルティナ",
+    "orbment": {
+      "WEAPON": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "SHIELD": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "WATER"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "DRIVE": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "MIRAGE"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "EXTRA": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "MIRAGE"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "name": "クロウ",
+    "orbment": {
+      "WEAPON": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "TIME"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "SHIELD": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "DRIVE": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "TIME"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "EXTRA": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "WATER"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "name": "フィー",
+    "orbment": {
+      "WEAPON": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "WIND"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "SHIELD": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "WIND"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "DRIVE": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "EXTRA": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "TIME"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "name": "セリス",
+    "orbment": {
+      "WEAPON": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "FIRE"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "SHIELD": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "DRIVE": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "FIRE"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "EXTRA": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "name": "リオン",
+    "orbment": {
+      "WEAPON": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "WATER"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "SHIELD": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "SKY"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "DRIVE": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "WATER"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "EXTRA": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "name": "ジン",
+    "orbment": {
+      "WEAPON": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "SHIELD": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "DRIVE": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "EXTRA": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "WATER"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "name": "ケビン",
+    "orbment": {
+      "WEAPON": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "SHIELD": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "SKY"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "DRIVE": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "TIME"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "EXTRA": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "SKY"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "name": "ルーファス",
+    "orbment": {
+      "WEAPON": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "SKY"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "SHIELD": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "DRIVE": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "WIND"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "EXTRA": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "WIND"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "name": "スウィン",
+    "orbment": {
+      "WEAPON": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "WIND"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "SHIELD": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "TIME"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "DRIVE": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "EXTRA": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "TIME"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "name": "ナーディア",
+    "orbment": {
+      "WEAPON": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "FIRE"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "SHIELD": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "DRIVE": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "FIRE"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "EXTRA": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "WATER"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "name": "リーシャ",
+    "orbment": {
+      "WEAPON": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "MIRAGE"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "SHIELD": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "DRIVE": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "FIRE"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ],
+      "EXTRA": [
+        {
+          "position": 0,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 1,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        },
+        {
+          "position": 2,
+          "type": [
+            "MIRAGE"
+          ],
+          "typeSpecified": true
+        },
+        {
+          "position": 3,
+          "type": [
+            "EARTH",
+            "WATER",
+            "FIRE",
+            "WIND",
+            "TIME",
+            "SKY",
+            "MIRAGE"
+          ],
+          "typeSpecified": false
+        }
+      ]
+    }
+  }
+]

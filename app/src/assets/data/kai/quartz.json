@@ -1,0 +1,2564 @@
+[
+  {
+    "id": 1,
+    "type": "EARTH",
+    "name": "防御1",
+    "description": "DEF+15",
+    "point": {
+      "EARTH": 2,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "EARTH",
+    "name": "防御2",
+    "description": "DEF+30",
+    "point": {
+      "EARTH": 4,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "EARTH",
+    "name": "防御3",
+    "description": "DEF+60",
+    "point": {
+      "EARTH": 6,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 4,
+    "type": "EARTH",
+    "name": "EP1",
+    "description": "最大EP+60",
+    "point": {
+      "EARTH": 2,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 5,
+    "type": "EARTH",
+    "name": "EP2",
+    "description": "最大EP+120",
+    "point": {
+      "EARTH": 4,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 6,
+    "type": "EARTH",
+    "name": "EP3",
+    "description": "最大EP+240",
+    "point": {
+      "EARTH": 6,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 7,
+    "type": "EARTH",
+    "name": "琥耀珠",
+    "description": "最大EP+240 DEF+60",
+    "point": {
+      "EARTH": 8,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 8,
+    "type": "EARTH",
+    "name": "腐蝕の刃",
+    "description": "ウェポン・EXTRAライン専用\nSTR+3 通常攻撃・クラフト時に確率10%で「腐蝕」",
+    "point": {
+      "EARTH": 3,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 9,
+    "type": "EARTH",
+    "name": "腐蝕の刃II",
+    "description": "ウェポン・EXTRAライン専用\nSTR+6 通常攻撃・クラフト時に確率20%で「腐蝕」",
+    "point": {
+      "EARTH": 5,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 10,
+    "type": "EARTH",
+    "name": "地霊の詩",
+    "description": "ドライブ・EXTRAライン専用\nATS+5 地属性アーツ硬直時間0.7倍",
+    "point": {
+      "EARTH": 3,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 11,
+    "type": "EARTH",
+    "name": "大地の詩",
+    "description": "ドライブ・EXTRAライン専用\nATS+10 地属性アーツ硬直時間0.5倍",
+    "point": {
+      "EARTH": 5,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 12,
+    "type": "EARTH",
+    "name": "黄晶の輪",
+    "description": "シールド・EXTRAライン専用\n最大HP+150 ピンチ地に4ターンDEF・ADF↑",
+    "point": {
+      "EARTH": 3,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "SHIELD",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 13,
+    "type": "EARTH",
+    "name": "鋼玉の輪",
+    "description": "シールド・EXTRAライン専用\n最大HP+600 ピンチ地に4ターンDEF・ADF↑↑",
+    "point": {
+      "EARTH": 5,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "SHIELD",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 14,
+    "type": "EARTH",
+    "name": "耀脈",
+    "description": "コマンドバトルで装備者が敵を倒すと入手セピス量+30%",
+    "point": {
+      "EARTH": 4,
+      "WATER": 0,
+      "FIRE": 2,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 15,
+    "type": "EARTH",
+    "name": "秘脈",
+    "description": "コマンドバトルで装備者が敵を倒すと入手セピス量+50%",
+    "point": {
+      "EARTH": 5,
+      "WATER": 0,
+      "FIRE": 3,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 16,
+    "type": "EARTH",
+    "name": "ゴリアテ",
+    "description": "スタン中に与えるダメージ+50%",
+    "point": {
+      "EARTH": 5,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 3,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 17,
+    "type": "EARTH",
+    "name": "アンクシャ",
+    "description": "状態変化「シールド」の効果1.2倍",
+    "point": {
+      "EARTH": 6,
+      "WATER": 4,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 18,
+    "type": "EARTH",
+    "name": "デイダラボッチ",
+    "description": "硬直時間が1.2倍になる代わりに与ダメージ+30%",
+    "point": {
+      "EARTH": 7,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 5,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 19,
+    "type": "WATER",
+    "name": "HP1",
+    "description": "最大HP+400",
+    "point": {
+      "EARTH": 0,
+      "WATER": 2,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 20,
+    "type": "WATER",
+    "name": "HP2",
+    "description": "最大HP+800",
+    "point": {
+      "EARTH": 0,
+      "WATER": 4,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 21,
+    "type": "WATER",
+    "name": "HP3",
+    "description": "最大HP+1600",
+    "point": {
+      "EARTH": 0,
+      "WATER": 6,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 22,
+    "type": "WATER",
+    "name": "魔防1",
+    "description": "ADF+10 魔法回避率+2%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 2,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 23,
+    "type": "WATER",
+    "name": "魔防2",
+    "description": "ADF+20 魔法回避率+4%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 4,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 24,
+    "type": "WATER",
+    "name": "魔防3",
+    "description": "ADF+40 魔法回避率+8%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 6,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 25,
+    "type": "WATER",
+    "name": "蒼耀珠",
+    "description": "最大HP+1600 ADF+40 魔法回避率+8%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 8,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 26,
+    "type": "WATER",
+    "name": "凍結の刃",
+    "description": "ウェポン・EXTRAライン専用\nSTR+3 通常攻撃・クラフト時に確率10%で「凍結」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 3,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 27,
+    "type": "WATER",
+    "name": "凍結の刃II",
+    "description": "ウェポン・EXTRAライン専用\nSTR+6 通常攻撃・クラフト時に確率20%で「凍結」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 5,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 28,
+    "type": "WATER",
+    "name": "水霊の詩",
+    "description": "ドライブ・EXTRAライン専用\nATS+5 水属性アーツ硬直時間0.7倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 3,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 29,
+    "type": "WATER",
+    "name": "蒼氷の詩",
+    "description": "ドライブ・EXTRAライン専用\nATS+5 水属性アーツ硬直時間0.5倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 5,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 30,
+    "type": "WATER",
+    "name": "青晶の輪",
+    "description": "シールド・EXTRAライン専用\n最大HP+150 ピンチ地に4ターン「HP徐々回復」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 3,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "SHIELD",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 31,
+    "type": "WATER",
+    "name": "藍玉の輪",
+    "description": "シールド・EXTRAライン専用\n最大HP+600 ピンチ地に8ターン「HP徐々回復」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 5,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "SHIELD",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 32,
+    "type": "WATER",
+    "name": "息吹",
+    "description": "回復アーツの効果+50%",
+    "point": {
+      "EARTH": 2,
+      "WATER": 4,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 33,
+    "type": "WATER",
+    "name": "慈愛",
+    "description": "回復アーツの効果+70%",
+    "point": {
+      "EARTH": 3,
+      "WATER": 5,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 34,
+    "type": "WATER",
+    "name": "カリオペ",
+    "description": "50%の確率でアーツがクリティカル",
+    "point": {
+      "EARTH": 0,
+      "WATER": 5,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 3,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 35,
+    "type": "WATER",
+    "name": "フロレント",
+    "description": "シャードスキルの発動率+20%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 6,
+      "FIRE": 4,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 36,
+    "type": "WATER",
+    "name": "コノハナサクヤ",
+    "description": "残りHPが多いほど魔法ダメージ上昇(最大+75%)",
+    "point": {
+      "EARTH": 0,
+      "WATER": 7,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 5
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 37,
+    "type": "FIRE",
+    "name": "攻撃1",
+    "description": "STR+6",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 2,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 38,
+    "type": "FIRE",
+    "name": "攻撃2",
+    "description": "STR+12",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 4,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 39,
+    "type": "FIRE",
+    "name": "攻撃3",
+    "description": "STR+24",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 6,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 40,
+    "type": "FIRE",
+    "name": "破壊1",
+    "description": "与スタン値+20%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 2,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 41,
+    "type": "FIRE",
+    "name": "破壊2",
+    "description": "与スタン値+40%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 4,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 42,
+    "type": "FIRE",
+    "name": "破壊3",
+    "description": "与スタン値+60%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 6,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 43,
+    "type": "FIRE",
+    "name": "紅耀珠",
+    "description": "STR+24 与スタン値+60%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 8,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 44,
+    "type": "FIRE",
+    "name": "炎傷の刃",
+    "description": "ウェポン・EXTRAライン専用\nSTR+3 通常攻撃・クラフト時に確率10%で「炎傷」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 3,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 45,
+    "type": "FIRE",
+    "name": "炎傷の刃II",
+    "description": "ウェポン・EXTRAライン専用\nSTR+6 通常攻撃・クラフト時に確率20%で「炎傷」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 5,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 46,
+    "type": "FIRE",
+    "name": "火霊の詩",
+    "description": "ドライブ・EXTRAライン専用\nATS+5 火属性アーツ硬直時間0.7倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 3,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 47,
+    "type": "FIRE",
+    "name": "業火の詩",
+    "description": "ドライブ・EXTRAライン専用\nATS+10 火属性アーツ硬直時間0.5倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 5,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 48,
+    "type": "FIRE",
+    "name": "赤晶の輪",
+    "description": "シールド・EXTRAライン専用\n最大HP+150 ピンチ時に4ターンSTR↑",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 3,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "SHIELD",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 49,
+    "type": "FIRE",
+    "name": "紅玉の輪",
+    "description": "シールド・EXTRAライン専用\n最大HP+600 ピンチ時に4ターンSTR↑↑",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 5,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "SHIELD",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 50,
+    "type": "FIRE",
+    "name": "烈火",
+    "description": "先制シャード攻撃のダメージ1.2倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 4,
+      "WIND": 2,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 51,
+    "type": "FIRE",
+    "name": "猛炎",
+    "description": "先制シャード攻撃のダメージ1.2倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 5,
+      "WIND": 3,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 52,
+    "type": "FIRE",
+    "name": "スマウグ",
+    "description": "被ダメージ時のCP上昇率5.0倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 3,
+      "FIRE": 5,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 53,
+    "type": "FIRE",
+    "name": "ベオウルフ",
+    "description": "シャード展開時、ブーストゲージの最大値+1",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 6,
+      "WIND": 0,
+      "TIME": 4,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 54,
+    "type": "FIRE",
+    "name": "プロメテウス",
+    "description": "残りHPが多いほど物理ダメージ上昇(最大+75%)",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 7,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 5
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 55,
+    "type": "WIND",
+    "name": "回避1",
+    "description": "回避率+4%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 2,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 56,
+    "type": "WIND",
+    "name": "回避2",
+    "description": "回避率+8%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 4,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 57,
+    "type": "WIND",
+    "name": "回避3",
+    "description": "回避率+16%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 6,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 58,
+    "type": "WIND",
+    "name": "必殺1",
+    "description": "必殺率+6%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 2,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 59,
+    "type": "WIND",
+    "name": "必殺2",
+    "description": "必殺率+12%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 4,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 60,
+    "type": "WIND",
+    "name": "必殺3",
+    "description": "必殺率+24%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 6,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 61,
+    "type": "WIND",
+    "name": "翠耀珠",
+    "description": "必殺率+24% 回避率+16%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 8,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 62,
+    "type": "WIND",
+    "name": "封技の刃",
+    "description": "ウェポン・EXTRAライン専用\nSTR+3 通常攻撃・クラフト時に確率10%で「封技」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 3,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 63,
+    "type": "WIND",
+    "name": "封技の刃II",
+    "description": "ウェポン・EXTRAライン専用\nSTR+6 通常攻撃・クラフト時に確率20%で「封技」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 5,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 64,
+    "type": "WIND",
+    "name": "風霊の詩",
+    "description": "ドライブ・EXTRAライン専用\nATS+5 風属性アーツ硬直時間0.7倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 3,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 65,
+    "type": "WIND",
+    "name": "威風の詩",
+    "description": "ドライブ・EXTRAライン専用\nATS+10 風属性アーツ硬直時間0.5倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 5,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 66,
+    "type": "WIND",
+    "name": "緑晶の輪",
+    "description": "シールド・EXTRAライン専用\n最大HP+150 ピンチ時に2ターン「心眼」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 3,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "SHIELD",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 67,
+    "type": "WIND",
+    "name": "翠玉の輪",
+    "description": "シールド・EXTRAライン専用\n最大HP+600 ピンチ時に4ターン「心眼」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 5,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "SHIELD",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 68,
+    "type": "WIND",
+    "name": "美臭",
+    "description": "コマンドバトル中、確率90%で敵から狙われやすくなる",
+    "point": {
+      "EARTH": 0,
+      "WATER": 2,
+      "FIRE": 0,
+      "WIND": 4,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 69,
+    "type": "WIND",
+    "name": "不屈",
+    "description": "コマンドバトル中、HP50%以下の時、回避率+20%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 3,
+      "FIRE": 0,
+      "WIND": 5,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 70,
+    "type": "WIND",
+    "name": "ガラドリエル",
+    "description": "回復アイテムの射程+15m",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 5,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 3
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 71,
+    "type": "WIND",
+    "name": "クサナギ",
+    "description": "通常攻撃・クラフトのクリティカルダメージ+100%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 6,
+      "TIME": 0,
+      "SKY": 4,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 72,
+    "type": "WIND",
+    "name": "ハヌマーン",
+    "description": "アーツ詠唱中、回避率+100%、魔法回避率+100%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 7,
+      "TIME": 5,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 73,
+    "type": "TIME",
+    "name": "行動力1",
+    "description": "SPD+4",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 2,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 74,
+    "type": "TIME",
+    "name": "行動力2",
+    "description": "SPD+8",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 4,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 75,
+    "type": "TIME",
+    "name": "行動力3",
+    "description": "SPD+16",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 6,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 76,
+    "type": "TIME",
+    "name": "駆動1",
+    "description": "アーツ詠唱時間0.9倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 2,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 77,
+    "type": "TIME",
+    "name": "駆動2",
+    "description": "アーツ詠唱時間0.8倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 4,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 78,
+    "type": "TIME",
+    "name": "駆動3",
+    "description": "アーツ詠唱時間0.6倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 6,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 79,
+    "type": "TIME",
+    "name": "黒耀珠",
+    "description": "SPD+16 アーツ詠唱時間0.6倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 8,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 80,
+    "type": "TIME",
+    "name": "冥暗の刃",
+    "description": "ウェポン・EXTRAライン専用\nSTR+3 通常攻撃・クラフト時に確率10%で「冥暗」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 3,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 81,
+    "type": "TIME",
+    "name": "冥暗の刃II",
+    "description": "ウェポン・EXTRAライン専用\nSTR+6 通常攻撃・クラフト時に確率20%で「冥暗」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 5,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 82,
+    "type": "TIME",
+    "name": "星霊の詩",
+    "description": "ドライブ・EXTRAライン専用\nATS+5 時属性アーツ硬直時間0.7倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 3,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 83,
+    "type": "TIME",
+    "name": "暁星の詩",
+    "description": "ドライブ・EXTRAライン専用\nATS+10 時属性アーツ硬直時間0.5倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 5,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 84,
+    "type": "TIME",
+    "name": "紫晶の輪",
+    "description": "シールド・EXTRAライン専用\n最大HP+150 ピンチ時に4ターン行動力↑",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 3,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "SHIELD",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 85,
+    "type": "TIME",
+    "name": "黒銀の輪",
+    "description": "シールド・EXTRAライン専用\n最大HP+600 ピンチ時に4ターン行動力↑↑",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 5,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "SHIELD",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 86,
+    "type": "TIME",
+    "name": "幸運",
+    "description": "コマンドバトルで装備者が敵を倒すとITEMドロップ率+30%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 2,
+      "TIME": 4,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 87,
+    "type": "TIME",
+    "name": "豪運",
+    "description": "コマンドバトルで装備者が敵を倒すとITEMドロップ率+50%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 3,
+      "TIME": 5,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 88,
+    "type": "TIME",
+    "name": "バンダースナッチ",
+    "description": "Sクラフトの硬直時間0.5倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 3,
+      "WIND": 0,
+      "TIME": 5,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 89,
+    "type": "TIME",
+    "name": "グングニル",
+    "description": "通常クラフトの硬直時間0.8倍",
+    "point": {
+      "EARTH": 4,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 6,
+      "SKY": 0,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 90,
+    "type": "TIME",
+    "name": "ヘカテー",
+    "description": "残りHPが少ないほど物理ダメージ上昇(最大+150%)",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 7,
+      "SKY": 5,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 91,
+    "type": "SKY",
+    "name": "省EP1",
+    "description": "消費EP0.9倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 2,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 92,
+    "type": "SKY",
+    "name": "省EP2",
+    "description": "消費EP0.8倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 4,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 93,
+    "type": "SKY",
+    "name": "省EP3",
+    "description": "消費EP0.6倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 6,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 94,
+    "type": "SKY",
+    "name": "命中1",
+    "description": "命中率+25% 必殺率+2%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 2,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 95,
+    "type": "SKY",
+    "name": "命中2",
+    "description": "命中率+50% 必殺率+4%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 4,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 96,
+    "type": "SKY",
+    "name": "命中3",
+    "description": "命中率+100% 必殺率+8%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 6,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 97,
+    "type": "SKY",
+    "name": "金耀珠",
+    "description": "命中率+100% 必殺率+8% 消費EP0.6倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 8,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 98,
+    "type": "SKY",
+    "name": "封魔の刃",
+    "description": "ウェポン・EXTRAライン専用\nSTR+3 通常攻撃・クラフト時に確率10%で「封魔」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 3,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 99,
+    "type": "SKY",
+    "name": "封魔の刃II",
+    "description": "ウェポン・EXTRAライン専用\nSTR+6 通常攻撃・クラフト時に確率20%で「封魔」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 5,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 100,
+    "type": "SKY",
+    "name": "陽霊の詩",
+    "description": "ドライブ・EXTRAライン専用\nATS+5 空属性アーツ硬直時間0.7倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 3,
+      "MIRAGE": 0
+    },
+    "line": [
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 101,
+    "type": "SKY",
+    "name": "極光の詩",
+    "description": "ドライブ・EXTRAライン専用\nATS+10 空属性アーツ硬直時間0.5倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 5,
+      "MIRAGE": 0
+    },
+    "line": [
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 102,
+    "type": "SKY",
+    "name": "金晶の輪",
+    "description": "シールド・EXTRAライン専用\n最大HP+150 ピンチ時に4ターンATS↑",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 3,
+      "MIRAGE": 0
+    },
+    "line": [
+      "SHIELD",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 103,
+    "type": "SKY",
+    "name": "黄金の輪",
+    "description": "シールド・EXTRAライン専用\n最大HP+600 ピンチ時に4ターンATS↑↑",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 5,
+      "MIRAGE": 0
+    },
+    "line": [
+      "SHIELD",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 104,
+    "type": "SKY",
+    "name": "天啓",
+    "description": "範囲アーツの効果範囲+1m",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 2,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 4,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 105,
+    "type": "SKY",
+    "name": "神託",
+    "description": "範囲アーツの効果範囲+2m",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 3,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 5,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 106,
+    "type": "SKY",
+    "name": "マーチヘア",
+    "description": "確率20%で物理ダメージを吸収",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 3,
+      "TIME": 0,
+      "SKY": 5,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 107,
+    "type": "SKY",
+    "name": "カドゥケウス",
+    "description": "仲間を回復したとき、CP+10",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 6,
+      "MIRAGE": 4
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 108,
+    "type": "SKY",
+    "name": "クロートー",
+    "description": "残りHPが少ないほど魔法ダメージ上昇(最大+150%)",
+    "point": {
+      "EARTH": 5,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 7,
+      "MIRAGE": 0
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 109,
+    "type": "MIRAGE",
+    "name": "精神1",
+    "description": "ATS+6",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 2
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 110,
+    "type": "MIRAGE",
+    "name": "精神2",
+    "description": "ATS+12",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 4
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 111,
+    "type": "MIRAGE",
+    "name": "精神3",
+    "description": "ATS+24",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 6
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 112,
+    "type": "MIRAGE",
+    "name": "妨害1",
+    "description": "確率30%で「駆動解除」、確率15%で「遅延小」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 2
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 113,
+    "type": "MIRAGE",
+    "name": "妨害2",
+    "description": "確率60%で「駆動解除」、確率30%で「遅延小」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 4
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 114,
+    "type": "MIRAGE",
+    "name": "妨害3",
+    "description": "確率90%で「駆動解除」、確率45%で「遅延小」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 6
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 115,
+    "type": "MIRAGE",
+    "name": "銀耀珠",
+    "description": "ATS+24 確率90%で「駆動解除」、確率45%で「遅延小」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 8
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 116,
+    "type": "MIRAGE",
+    "name": "恐怖の刃",
+    "description": "ウェポン・EXTRAライン専用\nSTR+3 通常攻撃・クラフト時に確率10%で「恐怖」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 3
+    },
+    "line": [
+      "WEAPON",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 117,
+    "type": "MIRAGE",
+    "name": "恐怖の刃II",
+    "description": "ウェポン・EXTRAライン専用\nSTR+6 通常攻撃・クラフト時に確率20%で「恐怖」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 5
+    },
+    "line": [
+      "WEAPON",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 118,
+    "type": "MIRAGE",
+    "name": "月霊の詩",
+    "description": "ドライブ・EXTRAライン専用\nATS+5 幻属性アーツ硬直時間0.7倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 3
+    },
+    "line": [
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 119,
+    "type": "MIRAGE",
+    "name": "朧月の詩",
+    "description": "ドライブ・EXTRAライン専用\nATS+10 幻属性アーツ硬直時間0.5倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 5
+    },
+    "line": [
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 120,
+    "type": "MIRAGE",
+    "name": "銀晶の輪",
+    "description": "シールド・EXTRAライン専用\n最大HP+150 ピンチ時に1ターン「ステルス」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 3
+    },
+    "line": [
+      "SHIELD",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 121,
+    "type": "MIRAGE",
+    "name": "白銀の輪",
+    "description": "シールド・EXTRAライン専用\n最大HP+600 ピンチ時に2ターン「ステルス」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 5
+    },
+    "line": [
+      "SHIELD",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 122,
+    "type": "MIRAGE",
+    "name": "空蝉",
+    "description": "コマンドバトル中、確率90%で敵から狙われにくくなる",
+    "point": {
+      "EARTH": 0,
+      "WATER": 2,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 4
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 123,
+    "type": "MIRAGE",
+    "name": "隠者",
+    "description": "コマンドバトル中、HP最大時、必殺率+30%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 3,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 5
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 124,
+    "type": "MIRAGE",
+    "name": "ジャバウォッキー",
+    "description": "確率20%で魔法ダメージを吸収",
+    "point": {
+      "EARTH": 3,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 5
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 125,
+    "type": "MIRAGE",
+    "name": "デュランダル",
+    "description": "敵を攻撃した時のブーストゲージ上昇率1.5倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 4,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 6
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  },
+  {
+    "id": 126,
+    "type": "MIRAGE",
+    "name": "アストライオス",
+    "description": "攻撃を受けた時、確率15%で「ステルス」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 5,
+      "SKY": 0,
+      "MIRAGE": 7
+    },
+    "line": [
+      "WEAPON",
+      "SHIELD",
+      "DRIVE",
+      "EXTRA"
+    ]
+  }
+]

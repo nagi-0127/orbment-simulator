@@ -1,0 +1,1742 @@
+[
+  {
+    "id": 1,
+    "name": "アースインパクト",
+    "description": "攻撃時、確率で地属性ダメージ+25%",
+    "line": "WEAPON",
+    "point": {
+      "EARTH": 2,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 2,
+    "name": "アクアインパクト",
+    "description": "攻撃時、確率で水属性ダメージ+25%",
+    "line": "WEAPON",
+    "point": {
+      "EARTH": 0,
+      "WATER": 2,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 3,
+    "name": "フレアインパクト",
+    "description": "攻撃時、確率で火属性ダメージ+25%",
+    "line": "WEAPON",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 2,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 4,
+    "name": "ゲイルインパクト",
+    "description": "攻撃時、確率で風属性ダメージ+25%",
+    "line": "WEAPON",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 2,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 5,
+    "name": "クロノインパクト",
+    "description": "攻撃時、確率で時属性ダメージ+25%",
+    "line": "WEAPON",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 2,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 6,
+    "name": "ゴルトインパクト",
+    "description": "攻撃時、確率で空属性ダメージ+25%",
+    "line": "WEAPON",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 2,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 7,
+    "name": "カオスインパクト",
+    "description": "攻撃時、確率で幻属性ダメージ+25%",
+    "line": "WEAPON",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 2
+    }
+  },
+  {
+    "id": 8,
+    "name": "アースインパクトⅡ",
+    "description": "攻撃時、確率で地属性ダメージ+50%",
+    "line": "WEAPON",
+    "point": {
+      "EARTH": 8,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 9,
+    "name": "アクアインパクトⅡ",
+    "description": "攻撃時、確率で水属性ダメージ+50%",
+    "line": "WEAPON",
+    "point": {
+      "EARTH": 0,
+      "WATER": 8,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 10,
+    "name": "フレアインパクトⅡ",
+    "description": "攻撃時、確率で火属性ダメージ+50%",
+    "line": "WEAPON",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 8,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 11,
+    "name": "ゲイルインパクトⅡ",
+    "description": "攻撃時、確率で風属性ダメージ+50%",
+    "line": "WEAPON",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 8,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 12,
+    "name": "クロノインパクトⅡ",
+    "description": "攻撃時、確率で時属性ダメージ+50%",
+    "line": "WEAPON",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 8,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 13,
+    "name": "ゴルトインパクトⅡ",
+    "description": "攻撃時、確率で空属性ダメージ+50%",
+    "line": "WEAPON",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 8,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 14,
+    "name": "カオスインパクトⅡ",
+    "description": "攻撃時、確率で幻属性ダメージ+50%",
+    "line": "WEAPON",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 8
+    }
+  },
+  {
+    "id": 15,
+    "name": "ソードブレイカー",
+    "description": "攻撃時、確率で2ターンSTR↓（小）",
+    "line": "WEAPON",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 3,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 5,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 16,
+    "name": "ソードブレイカー改",
+    "description": "ソードブレイカー発生時、ダメージ+10%",
+    "line": "WEAPON",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 5,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 10,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 17,
+    "name": "シールドブレイカー",
+    "description": "攻撃時、確率で2ターンDEF↓（小）",
+    "line": "WEAPON",
+    "point": {
+      "EARTH": 5,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 3,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 18,
+    "name": "シールドブレイカー改",
+    "description": "シールドブレイカー発生時、ダメージ+10%",
+    "line": "WEAPON",
+    "point": {
+      "EARTH": 10,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 5,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 19,
+    "name": "破剣の強襲",
+    "description": "先制攻撃時、確率で2ターンSTR↓（小）",
+    "line": "WEAPON",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 3,
+      "MIRAGE": 5
+    }
+  },
+  {
+    "id": 20,
+    "name": "破剣の超強襲",
+    "description": "高確率で破剣の強襲発生＆ダメージ+15%",
+    "line": "WEAPON",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 5,
+      "MIRAGE": 10
+    }
+  },
+  {
+    "id": 21,
+    "name": "破盾の強襲",
+    "description": "先制攻撃時、確率で2ターンDEF↓（小）",
+    "line": "WEAPON",
+    "point": {
+      "EARTH": 0,
+      "WATER": 5,
+      "FIRE": 0,
+      "WIND": 3,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 22,
+    "name": "破盾の超強襲",
+    "description": "高確率で破盾の強襲発生＆ダメージ+15%",
+    "line": "WEAPON",
+    "point": {
+      "EARTH": 0,
+      "WATER": 10,
+      "FIRE": 0,
+      "WIND": 5,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 23,
+    "name": "フェイタルランサー",
+    "description": "攻撃後、トドメの一撃＆周囲の敵を巻き込む",
+    "line": "WEAPON",
+    "point": {
+      "EARTH": 3,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 10,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 24,
+    "name": "フェイタルランサー改",
+    "description": "トドメの一撃のダメージ+50%",
+    "line": "WEAPON",
+    "point": {
+      "EARTH": 6,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 12,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 25,
+    "name": "バーストゲイン",
+    "description": "攻撃時、確率でHP4％回復＆CP+4",
+    "line": "WEAPON",
+    "point": {
+      "EARTH": 0,
+      "WATER": 3,
+      "FIRE": 6,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 26,
+    "name": "バーストゲインⅡ",
+    "description": "攻撃時、確率でHP8％回復＆CP+8",
+    "line": "WEAPON",
+    "point": {
+      "EARTH": 0,
+      "WATER": 6,
+      "FIRE": 12,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 27,
+    "name": "エクスキューショナー",
+    "description": "スタン発生orスタン中の敵に攻撃時、確率で追撃",
+    "line": "WEAPON",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 6,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 3
+    }
+  },
+  {
+    "id": 28,
+    "name": "エクスキューショナー改",
+    "description": "追撃のダメージ+50%",
+    "line": "WEAPON",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 12,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 6
+    }
+  },
+  {
+    "id": 29,
+    "name": "アースレジスト",
+    "description": "腐蝕攻撃を受けた時、確率で無効＆HP1で耐える",
+    "line": "SHIELD",
+    "point": {
+      "EARTH": 2,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 30,
+    "name": "アクアレジスト",
+    "description": "凍結攻撃を受けた時、確率で無効＆HP1で耐える",
+    "line": "SHIELD",
+    "point": {
+      "EARTH": 0,
+      "WATER": 2,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 31,
+    "name": "フレアレジスト",
+    "description": "炎傷攻撃を受けた時、確率で無効＆HP1で耐える",
+    "line": "SHIELD",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 2,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 32,
+    "name": "ゲイルレジスト",
+    "description": "封技攻撃を受けた時、確率で無効＆HP1で耐える",
+    "line": "SHIELD",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 2,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 33,
+    "name": "ダークレジスト",
+    "description": "冥暗攻撃を受けた時、確率で無効＆HP1で耐える",
+    "line": "SHIELD",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 2,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 34,
+    "name": "ゴルトレジスト",
+    "description": "封魔攻撃を受けた時、確率で無効＆HP1で耐える",
+    "line": "SHIELD",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 2,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 35,
+    "name": "カオスレジスト",
+    "description": "恐怖攻撃を受けた時、確率で無効＆HP1で耐える",
+    "line": "SHIELD",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 2
+    }
+  },
+  {
+    "id": 36,
+    "name": "アースレジストⅡ",
+    "description": "腐蝕攻撃を受けた時、高確率で無効＆HP1で耐える",
+    "line": "SHIELD",
+    "point": {
+      "EARTH": 8,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 37,
+    "name": "アクアレジストⅡ",
+    "description": "凍結攻撃を受けた時、高確率で無効＆HP1で耐える",
+    "line": "SHIELD",
+    "point": {
+      "EARTH": 0,
+      "WATER": 8,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 38,
+    "name": "フレアレジストⅡ",
+    "description": "炎傷攻撃を受けた時、高確率で無効＆HP1で耐える",
+    "line": "SHIELD",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 8,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 39,
+    "name": "ゲイルレジストⅡ",
+    "description": "封技攻撃を受けた時、高確率で無効＆HP1で耐える",
+    "line": "SHIELD",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 8,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 40,
+    "name": "ダークレジストⅡ",
+    "description": "冥暗攻撃を受けた時、高確率で無効＆HP1で耐える",
+    "line": "SHIELD",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 8,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 41,
+    "name": "ゴルトレジストⅡ",
+    "description": "封魔攻撃を受けた時、高確率で無効＆HP1で耐える",
+    "line": "SHIELD",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 8,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 42,
+    "name": "カオスレジストⅡ",
+    "description": "恐怖攻撃を受けた時、高確率で無効＆HP1で耐える",
+    "line": "SHIELD",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 8
+    }
+  },
+  {
+    "id": 43,
+    "name": "リカバーガード",
+    "description": "防御時に確率で大防御＆ティア発動",
+    "line": "SHIELD",
+    "point": {
+      "EARTH": 0,
+      "WATER": 4,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 2,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 44,
+    "name": "Aリカバーガード",
+    "description": "行動後に低確率でリカバーガードが自動発動",
+    "line": "SHIELD",
+    "point": {
+      "EARTH": 0,
+      "WATER": 10,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 5,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 45,
+    "name": "ライズガード",
+    "description": "防御時に確率で大防御＆CP+30",
+    "line": "SHIELD",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 4,
+      "WIND": 2,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 46,
+    "name": "Aライズガード",
+    "description": "行動後に低確率でライズガードが自動発動",
+    "line": "SHIELD",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 10,
+      "WIND": 5,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 47,
+    "name": "フォルテガード",
+    "description": "防御時に確率で大防御＆フォルテ発動",
+    "line": "SHIELD",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 4,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 2
+    }
+  },
+  {
+    "id": 48,
+    "name": "Aフォルテガード",
+    "description": "行動後に低確率でフォルテガードが自動発動",
+    "line": "SHIELD",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 10,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 5
+    }
+  },
+  {
+    "id": 49,
+    "name": "クレストガード",
+    "description": "防御時に確率で大防御＆クレスト発動",
+    "line": "SHIELD",
+    "point": {
+      "EARTH": 4,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 2,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 50,
+    "name": "Aクレストガード",
+    "description": "行動後に低確率でクレストガードが自動発動",
+    "line": "SHIELD",
+    "point": {
+      "EARTH": 10,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 5,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 51,
+    "name": "カバーシールド",
+    "description": "確率で仲間が受けるダメージ1/2+HP1で耐える",
+    "line": "SHIELD",
+    "point": {
+      "EARTH": 3,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 6
+    }
+  },
+  {
+    "id": 52,
+    "name": "カバーシールドⅡ",
+    "description": "確率で仲間が受けるダメージ1/4+HP1で耐える",
+    "line": "SHIELD",
+    "point": {
+      "EARTH": 6,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 12
+    }
+  },
+  {
+    "id": 53,
+    "name": "リベンジアロー",
+    "description": "仲間が攻撃を受けた時、確率で反撃",
+    "line": "SHIELD",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 3,
+      "TIME": 6,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 54,
+    "name": "リベンジアロー改",
+    "description": "反撃のダメージ+50%",
+    "line": "SHIELD",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 6,
+      "TIME": 12,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 55,
+    "name": "セラフィムフォース",
+    "description": "戦闘不能の直前にHP1で耐えHP・EP・CP中回復（一度）",
+    "line": "SHIELD",
+    "point": {
+      "EARTH": 0,
+      "WATER": 3,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 6,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 56,
+    "name": "セラフィムフォース改",
+    "description": "戦闘不能の直前にHP1で耐えHP・EP・CP大回復（一度）",
+    "line": "SHIELD",
+    "point": {
+      "EARTH": 0,
+      "WATER": 6,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 12,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 57,
+    "name": "アースブースト",
+    "description": "地属性アーツ攻撃時、確率で追加ダメージ+25%",
+    "line": "DRIVE",
+    "point": {
+      "EARTH": 2,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 58,
+    "name": "アクアブースト",
+    "description": "水属性アーツ攻撃時、確率で追加ダメージ+25%",
+    "line": "DRIVE",
+    "point": {
+      "EARTH": 0,
+      "WATER": 2,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 59,
+    "name": "フレアブースト",
+    "description": "火属性アーツ攻撃時、確率で追加ダメージ+25%",
+    "line": "DRIVE",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 2,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 60,
+    "name": "ゲイルブースト",
+    "description": "風属性アーツ攻撃時、確率で追加ダメージ+25%",
+    "line": "DRIVE",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 2,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 61,
+    "name": "クロノブースト",
+    "description": "時属性アーツ攻撃時、確率で追加ダメージ+25%",
+    "line": "DRIVE",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 2,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 62,
+    "name": "ゴルトブースト",
+    "description": "空属性アーツ攻撃時、確率で追加ダメージ+25%",
+    "line": "DRIVE",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 2,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 63,
+    "name": "カオスブースト",
+    "description": "幻属性アーツ攻撃時、確率で追加ダメージ+25%",
+    "line": "DRIVE",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 2
+    }
+  },
+  {
+    "id": 64,
+    "name": "アースブーストⅡ",
+    "description": "地属性アーツ攻撃時、確率で追加ダメージ+50%",
+    "line": "DRIVE",
+    "point": {
+      "EARTH": 8,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 65,
+    "name": "アクアブーストⅡ",
+    "description": "水属性アーツ攻撃時、確率で追加ダメージ+50%",
+    "line": "DRIVE",
+    "point": {
+      "EARTH": 0,
+      "WATER": 8,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 66,
+    "name": "フレアブーストⅡ",
+    "description": "火属性アーツ攻撃時、確率で追加ダメージ+50%",
+    "line": "DRIVE",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 8,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 67,
+    "name": "ゲイルブーストⅡ",
+    "description": "風属性アーツ攻撃時、確率で追加ダメージ+50%",
+    "line": "DRIVE",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 8,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 68,
+    "name": "クロノブーストⅡ",
+    "description": "時属性アーツ攻撃時、確率で追加ダメージ+50%",
+    "line": "DRIVE",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 8,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 69,
+    "name": "ゴルトブーストⅡ",
+    "description": "空属性アーツ攻撃時、確率で追加ダメージ+50%",
+    "line": "DRIVE",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 8,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 70,
+    "name": "カオスブーストⅡ",
+    "description": "幻属性アーツ攻撃時、確率で追加ダメージ+50%",
+    "line": "DRIVE",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 8
+    }
+  },
+  {
+    "id": 71,
+    "name": "マインドクラッカー",
+    "description": "アーツ攻撃時、確率で2ターンATS↓（小）",
+    "line": "DRIVE",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 5,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 3
+    }
+  },
+  {
+    "id": 72,
+    "name": "マインドクラッカー改",
+    "description": "マインドクラッカー発生時、ダメージ+10%",
+    "line": "DRIVE",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 10,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 5
+    }
+  },
+  {
+    "id": 73,
+    "name": "スピリットクラッカー",
+    "description": "アーツ攻撃時、確率で2ターンADF↓（小）",
+    "line": "DRIVE",
+    "point": {
+      "EARTH": 5,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 3,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 74,
+    "name": "スピリットクラッカー改",
+    "description": "スピリットクラッカー発生時、ダメージ+10%",
+    "line": "DRIVE",
+    "point": {
+      "EARTH": 10,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 5,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 75,
+    "name": "破言の強襲",
+    "description": "先制攻撃時、確率で2ターンATS↓（小）",
+    "line": "DRIVE",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 3,
+      "WIND": 0,
+      "TIME": 5,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 76,
+    "name": "破言の超強襲",
+    "description": "高確率で破言剣の強襲発生＆ダメージ+15%",
+    "line": "DRIVE",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 5,
+      "WIND": 0,
+      "TIME": 10,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 77,
+    "name": "破霊の強襲",
+    "description": "先制攻撃時、確率で2ターンADF↓（小）",
+    "line": "DRIVE",
+    "point": {
+      "EARTH": 0,
+      "WATER": 3,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 5,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 78,
+    "name": "破霊の超強襲",
+    "description": "高確率で破霊の強襲発生＆ダメージ+15%",
+    "line": "DRIVE",
+    "point": {
+      "EARTH": 0,
+      "WATER": 5,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 10,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 79,
+    "name": "アークフェザー",
+    "description": "アーツ攻撃時、確率で追加ダメージ+50%",
+    "line": "DRIVE",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 3,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 10
+    }
+  },
+  {
+    "id": 80,
+    "name": "アークフェザー改",
+    "description": "アーツ攻撃時、確率で追加ダメージ+75%＆遅延",
+    "line": "DRIVE",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 6,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 12
+    }
+  },
+  {
+    "id": 81,
+    "name": "カタラクトゲイン",
+    "description": "アーツ攻撃時、確率でEP10％回復",
+    "line": "DRIVE",
+    "point": {
+      "EARTH": 3,
+      "WATER": 6,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 82,
+    "name": "カタラクトゲインⅡ",
+    "description": "アーツ攻撃時、確率でEP20％回復",
+    "line": "DRIVE",
+    "point": {
+      "EARTH": 6,
+      "WATER": 12,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 83,
+    "name": "アベンジャースペル",
+    "description": "魔法攻撃を回避または確率でクイックアーツによる反撃",
+    "line": "DRIVE",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 3,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 6,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 84,
+    "name": "アベンジャースペル改",
+    "description": "高確率でアベンジャースペル発生＆ダメージ+10%",
+    "line": "DRIVE",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 6,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 12,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 85,
+    "name": "ガードスターター",
+    "description": "シャード展開時、確率で2ターンDEF・ADF↑（小）",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 2,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 86,
+    "name": "エナジースターター",
+    "description": "シャード展開時、確率で2ターン徐々HP回復",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 0,
+      "WATER": 2,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 87,
+    "name": "パワースターター",
+    "description": "シャード展開時、確率で2ターンSTR↑（小）",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 2,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 88,
+    "name": "ギフトスターター",
+    "description": "シャード展開時、確率で1ターン心眼",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 2,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 89,
+    "name": "クイックスターター",
+    "description": "シャード展開時、確率で2ターン行動力↑（小）",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 2,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 90,
+    "name": "アーツスターター",
+    "description": "シャード展開時、確率で2ターンATS↑（小）",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 2,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 91,
+    "name": "ファントムスターター",
+    "description": "シャード展開時、確率で1ターンステルス",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 2
+    }
+  },
+  {
+    "id": 92,
+    "name": "ガードスターターⅡ",
+    "description": "シャード展開時、確率で2ターンDEF・ADF↑（中）",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 10,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 93,
+    "name": "エナジースターターⅡ",
+    "description": "シャード展開時、確率で4ターン徐々HP回復",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 0,
+      "WATER": 10,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 94,
+    "name": "パワースターターⅡ",
+    "description": "シャード展開時、確率で2ターンSTR↑（中）",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 10,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 95,
+    "name": "ギフトスターターⅡ",
+    "description": "シャード展開時、確率で2ターン心眼",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 10,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 96,
+    "name": "クイックスターターⅡ",
+    "description": "シャード展開時、確率で2ターン行動力↑（中）",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 10,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 97,
+    "name": "アーツスターターⅡ",
+    "description": "シャード展開時、確率で2ターンATS↑（中）",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 10,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 98,
+    "name": "ファントムスターターⅡ",
+    "description": "シャード展開時、確率で2ターンステルス",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 10
+    }
+  },
+  {
+    "id": 99,
+    "name": "ゴールデンアイ",
+    "description": "フィールドの全ての敵と宝箱をミニマップ上に表示",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 2
+    }
+  },
+  {
+    "id": 100,
+    "name": "レッグブレイカー",
+    "description": "攻撃時、確率で2ターン行動力↓（小）",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 5,
+      "SKY": 0,
+      "MIRAGE": 3
+    }
+  },
+  {
+    "id": 101,
+    "name": "レッグブレイカー改",
+    "description": "レッグブレイカー発生時、ダメージ+10%",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 10,
+      "SKY": 0,
+      "MIRAGE": 6
+    }
+  },
+  {
+    "id": 102,
+    "name": "破迅の強襲",
+    "description": "先制攻撃時、確率で2ターン行動力↓（小）",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 3,
+      "SKY": 5,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 103,
+    "name": "破迅の超強襲",
+    "description": "高確率で破迅の強襲発生＆ダメージ+15%",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 6,
+      "SKY": 10,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 104,
+    "name": "オートフォルテ",
+    "description": "行動開始時、低確率でフォルテ発動",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 4,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 4,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 105,
+    "name": "オートクレスト",
+    "description": "行動開始時、低確率でクレスト発動",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 4,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 4,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 106,
+    "name": "オートクイック",
+    "description": "行動開始時、低確率でクイック発動",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 4,
+      "SKY": 4,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 107,
+    "name": "エナジーチャージャー",
+    "description": "戦闘終了後にHP・EP5％回復",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 0,
+      "WATER": 6,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 108,
+    "name": "エナジーチャージャーⅡ",
+    "description": "戦闘終了後にHP・EP10％回復",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 0,
+      "WATER": 12,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 109,
+    "name": "パワーチャージャー",
+    "description": "戦闘終了後にHP5％回復＆CP+25",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 6,
+      "WIND": 3,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 110,
+    "name": "パワーチャージャーⅡ",
+    "description": "戦闘終了後にHP10％回復＆CP+50",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 12,
+      "WIND": 6,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 111,
+    "name": "スクラムアップ",
+    "description": "コマンドバトル中、スクラムの範囲アップ",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 3,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 6,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 112,
+    "name": "スクラムアップⅡ",
+    "description": "コマンドバトル中、スクラムの範囲大アップ",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 6,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 12,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 113,
+    "name": "クライシスフォース",
+    "description": "瀕死での行動開始時、確率で全能力↑（小）",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 6,
+      "WATER": 0,
+      "FIRE": 3,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 114,
+    "name": "クライシスフォースⅡ",
+    "description": "瀕死での行動開始時、高確率で全能力↑（小）",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 12,
+      "WATER": 0,
+      "FIRE": 6,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 115,
+    "name": "ヘブンリーラック",
+    "description": "行動後、低確率でATボーナス発生",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 0,
+      "WATER": 3,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 6
+    }
+  },
+  {
+    "id": 116,
+    "name": "ヘブンリーラックⅡ",
+    "description": "行動後、確率でATボーナス発生",
+    "line": "EXTRA",
+    "point": {
+      "EARTH": 0,
+      "WATER": 6,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 12
+    }
+  }
+]
