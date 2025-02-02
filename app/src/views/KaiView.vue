@@ -1,6 +1,17 @@
 <template>
   <v-container fluid>
-    <select-skill :skills="(skills as Skill[])" v-model:model-value="selectedSkills"></select-skill>
+    <v-tabs v-model="tab" align-tabs="start" color="secondary">
+      <v-tab :value="1">スキル選択</v-tab>
+      <v-tab :value="2">クオーツ</v-tab>
+    </v-tabs>
+    <v-tabs-window v-model="tab">
+      <v-tabs-window-item :value="1">
+        <select-skill :skills="(skills as Skill[])" v-model:model-value="selectedSkills"></select-skill>
+      </v-tabs-window-item>
+      <v-tabs-window-item :value="2">
+        <select-quartz :quartz-list="(quarts as Quartz[])" v-model:model-value="selectedQuartz"></select-quartz>
+      </v-tabs-window-item>
+    </v-tabs-window>
     <v-container fluid>
       <v-row>
         <v-col cols="2">
@@ -31,12 +42,15 @@ import skills from '@/assets/data/kai/shard_skill.json'
 import quarts from '@/assets/data/kai/quartz.json'
 
 import SelectSkill from '@/components/SelectSkill.vue'
+import SelectQuartz from '@/components/SelectQuartz.vue';
 import SearchResult from '@/components/SearchResult.vue';
 
 import { getZeroPoint, searchQuartzSet } from '@/util/searchLogic';
 
+const tab = ref(null)
+
 const selectedCharacter = ref<Character>(characters[0] as Character)
-const selectedQuartz = ref<Quartz[]>(quarts as Quartz[])
+const selectedQuartz = ref<Quartz[]>([...quarts] as Quartz[])
 const selectedSkills = ref<{ [key in Lines]: { requiredPoint: Point, selected: Skill[] } }>({
   WEAPON: { selected: [], requiredPoint: getZeroPoint() },
   SHIELD: { selected: [], requiredPoint: getZeroPoint() },
