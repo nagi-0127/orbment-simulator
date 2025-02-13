@@ -111,9 +111,10 @@ const getQuartzListFromResult = (result: object, slots: Slot[], validQuartz: Qua
  * @param character 対象キャラクター
  * @param selectedSkills 選択スキル
  * @param selectedQuartz 選択クオーツ
+ * @param n 検索最大件数
  * @returns 検索結果
  */
-export const searchQuartzSet = async (character: Character, selectedSkills: { [key in Lines]: { requiredPoint: Point, selected: Skill[] } }, selectedQuartz: Quartz[]): Promise<{ [key in Lines]?: (Quartz | null)[] }[] | null> => {
+export const searchQuartzSet = async (character: Character, selectedSkills: { [key in Lines]: { requiredPoint: Point, selected: Skill[] } }, selectedQuartz: Quartz[], n: number=1): Promise<{ [key in Lines]?: (Quartz | null)[] }[] | null> => {
   const lineInfo = { ...character.orbment }
 
   const variables: { [key: string]: { [key: string]: any } } = {}
@@ -233,7 +234,7 @@ export const searchQuartzSet = async (character: Character, selectedSkills: { [k
   // 各変数に存在しないキーをすべて0で追加(変数オブジェクトが全て同じ型でないと遅い...気がする)
   const dummy = Object.fromEntries(varKeysAll.map(k => [k, 0]))
   const model: Model = {
-    // objective: 'total',
+    objective: 'total',
     // direction: 'minimize',
     variables: Object.fromEntries(
       Object.entries(variables).map(([k, v]) => [k, { ...dummy, ...v }])
@@ -243,61 +244,90 @@ export const searchQuartzSet = async (character: Character, selectedSkills: { [k
     binaries: true
   }
 
-  return new Promise<Solution>((resolve, reject) => {
+  console.log(model)
+  return new Promise<Solution[]>((resolve, reject) => {
     const worker: Worker = new Worker(new URL('@/util/solverWorker.ts', import.meta.url), {type: 'module'})
+    const successResults: Solution[] = []
     worker.onmessage = (ev: MessageEvent<Solution>) => {
-      // const result = solve(model)
+      console.log(ev.data)
       if (ev.data.status === 'optimal') {
-        resolve(ev.data)
+        successResults.push(ev.data)
+        if (successResults.length >= n) {
+          resolve(successResults)
+          return
+        }
+        // 同じ組み合わせを除外する制約を追加
+        const idList = ev.data.variables.map(([k]) => k)
+        for (const varName of Object.keys(variables)) {
+          variables[varName][`pattern${successResults.length}`] = idList.includes(varName) ? 1 : 0
+        }
+        constraints[`pattern${successResults.length}`] = {max: ev.data.variables.length - 1}
+        // 再検索
+        worker.postMessage({
+          objective: 'total',
+          // direction: 'minimize',
+          variables: Object.fromEntries(
+            Object.entries(variables).map(([k, v]) => [k, { ...dummy, ...v }])
+          ),
+          constraints,
+          // ints
+          binaries: true
+        })
       } else {
-        reject(ev.data)
+        if (successResults.length > 0) {
+          resolve(successResults)
+        } else {
+          reject(ev.data)
+        }
       }
     }
     worker.postMessage(model)
-  }).then(solution => {
+  }).then(solutions => {
     // 解が得られたときのみ戻り値生成
     const resultSet: { [key in Lines]?: (Quartz | null)[] }[] = []
-    const resultVal: { [key in Lines]?: (Quartz | null)[] } = {}
-    for (const line of Object.keys(lineInfo)) {
-      // 検索結果をスロット位置（属性専用の場合は位置固定, それ以外は-1）, クオーツIDに分解
-      const idSet = solution.variables
-        .filter(([k]) => k.startsWith(line))
-        .map(([id]) => {
-          const [_, pos, qid] = id.split('_')
-          return [parseInt(pos), parseInt(qid)]
-        })
+    solutions.forEach(solution => {
+      const resultVal: { [key in Lines]?: (Quartz | null)[] } = {}
+      for (const line of Object.keys(lineInfo)) {
+        // 検索結果をスロット位置（属性専用の場合は位置固定, それ以外は-1）, クオーツIDに分解
+        const idSet = solution.variables
+          .filter(([k]) => k.startsWith(line))
+          .map(([id]) => {
+            const [_, pos, qid] = id.split('_')
+            return [parseInt(pos), parseInt(qid)]
+          })
 
-      const quartzList: (Quartz | null)[] = []
-      lineInfo[line as Lines].forEach(slot => {
-        if (slot.typeSpecified) {
-          const id = idSet.filter(([p, _]) => p === slot.position)?.[0]
-          if (id) {
-            idSet.splice(idSet.indexOf(id), 1)
-            const quartz: Quartz = selectedQuartz.filter(val => val.id == id[1])[0]
-            quartzList.push({
-              ...quartz,
-              // ポイント2倍
-              point: pointMultiply(quartz.point)
-            })
+        const quartzList: (Quartz | null)[] = []
+        lineInfo[line as Lines].forEach(slot => {
+          if (slot.typeSpecified) {
+            const id = idSet.filter(([p, _]) => p === slot.position)?.[0]
+            if (id) {
+              idSet.splice(idSet.indexOf(id), 1)
+              const quartz: Quartz = selectedQuartz.filter(val => val.id == id[1])[0]
+              quartzList.push({
+                ...quartz,
+                // ポイント2倍
+                point: pointMultiply(quartz.point)
+              })
+            } else {
+              quartzList.push(null)
+            }
           } else {
-            quartzList.push(null)
+            const id = idSet.filter(([p, _]) => p === -1)?.[0]
+            if (id) {
+              idSet.splice(idSet.indexOf(id), 1)
+              const quartz: Quartz = selectedQuartz.filter(val => val.id == id[1])[0]
+              quartzList.push({
+                ...quartz,
+              })
+            } else {
+              quartzList.push(null)
+            }
           }
-        } else {
-          const id = idSet.filter(([p, _]) => p === -1)?.[0]
-          if (id) {
-            idSet.splice(idSet.indexOf(id), 1)
-            const quartz: Quartz = selectedQuartz.filter(val => val.id == id[1])[0]
-            quartzList.push({
-              ...quartz,
-            })
-          } else {
-            quartzList.push(null)
-          }
-        }
-      })
-      resultVal[line as Lines] = quartzList
-    }
-    resultSet.push(resultVal)
+        })
+        resultVal[line as Lines] = quartzList
+      }
+      resultSet.push(resultVal)
+    })
     return resultSet
   }).catch(() => null)
 }

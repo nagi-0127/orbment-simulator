@@ -70,19 +70,13 @@ watch(selectedCharacter, () => {
   // キャラ切り替えで検索結果クリア
   res.value = undefined
 })
+
 const onSearchClick = () => {
-  console.log('start')
-  isProcessing.value = true
-  // const result = searchQuartzSet(selectedCharacter.value, selectedSkills.value, selectedQuartz.value, )
-  const result = searchQuartzSet({ ...selectedCharacter.value }, {...selectedSkills.value}, [...selectedQuartz.value])
+  const result = searchQuartzSet({ ...selectedCharacter.value }, {...selectedSkills.value}, [...selectedQuartz.value], 1)
   console.log(result)
   result.then(result => {
     res.value = result
   }).finally(() => { isProcessing.value = false })
-  // searchQuartzSet({ ...selectedCharacter.value }, {...selectedSkills.value}, [...selectedQuartz.value]).then(result => {
-  //   res.value = result
-  // }).finally(() => { isProcessing.value = false })
-  console.log('end')
 }
 
 </script>
