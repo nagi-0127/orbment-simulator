@@ -19,23 +19,28 @@
             return-object></v-select>
         </v-col>
         <v-col>
-          <v-btn @click="onSearchClick">Search</v-btn>
+          <v-btn @click="() => onSearchClick()" :disabled="isProcessing">Search</v-btn>
         </v-col>
       </v-row>
     </v-container>
-    <v-container fluid v-if="res !== null">
-      <template v-for="result in res">
-        <search-result :character="selectedCharacter" :skills="(skills as Skill[])" :result="result"></search-result>
-      </template>
-    </v-container>
-    <v-container fluid v-else-if="res === null">
-      <v-alert text="検索結果がありません" type="warning"></v-alert>
-    </v-container>
+    <template v-if="isProcessing">
+      <v-skeleton-loader type="card"></v-skeleton-loader>
+    </template>
+    <template v-else>
+      <v-container fluid v-if="res !== null">
+        <template v-for="result in res">
+          <search-result :character="selectedCharacter" :skills="(skills as Skill[])" :result="result"></search-result>
+        </template>
+      </v-container>
+      <v-container fluid v-else-if="res === null">
+        <v-alert text="検索結果がありません" type="warning"></v-alert>
+      </v-container>
+    </template>
   </v-container>
 </template>
 
 <script setup lang="ts">
-import { ref, watch  } from 'vue';
+import { ref, shallowRef, watch } from 'vue';
 
 import characters from '@/assets/data/kai/characters.json'
 import skills from '@/assets/data/kai/shard_skill.json'
@@ -49,9 +54,9 @@ import { getZeroPoint, searchQuartzSet } from '@/util/searchLogic';
 
 const tab = ref(null)
 
-const selectedCharacter = ref<Character>(characters[0] as Character)
-const selectedQuartz = ref<Quartz[]>([...quarts] as Quartz[])
-const selectedSkills = ref<{ [key in Lines]: { requiredPoint: Point, selected: Skill[] } }>({
+const selectedCharacter = shallowRef<Character>(characters[0] as Character)
+const selectedQuartz = shallowRef<Quartz[]>([...quarts] as Quartz[])
+const selectedSkills = shallowRef<{ [key in Lines]: { requiredPoint: Point, selected: Skill[] } }>({
   WEAPON: { selected: [], requiredPoint: getZeroPoint() },
   SHIELD: { selected: [], requiredPoint: getZeroPoint() },
   DRIVE: { selected: [], requiredPoint: getZeroPoint() },
@@ -59,14 +64,25 @@ const selectedSkills = ref<{ [key in Lines]: { requiredPoint: Point, selected: S
 })
 
 const res = ref<{ [key in Lines]?: (Quartz | null)[] }[] | null | undefined>(undefined)
+const isProcessing = ref<boolean>(false)
 
 watch(selectedCharacter, () => {
   // キャラ切り替えで検索結果クリア
   res.value = undefined
 })
 const onSearchClick = () => {
-  const result = searchQuartzSet(selectedCharacter.value, selectedSkills.value, selectedQuartz.value, )
-  res.value = result
+  console.log('start')
+  isProcessing.value = true
+  // const result = searchQuartzSet(selectedCharacter.value, selectedSkills.value, selectedQuartz.value, )
+  const result = searchQuartzSet({ ...selectedCharacter.value }, {...selectedSkills.value}, [...selectedQuartz.value])
+  console.log(result)
+  result.then(result => {
+    res.value = result
+  }).finally(() => { isProcessing.value = false })
+  // searchQuartzSet({ ...selectedCharacter.value }, {...selectedSkills.value}, [...selectedQuartz.value]).then(result => {
+  //   res.value = result
+  // }).finally(() => { isProcessing.value = false })
+  console.log('end')
 }
 
 </script>
