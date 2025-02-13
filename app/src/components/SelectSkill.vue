@@ -53,19 +53,19 @@ const selected = defineModel<{ [key in Lines]: { requiredPoint: Point, selected:
 })
 const selectedWeapon = ref<T[]>(selected.value['WEAPON']?.selected ?? [])
 watchEffect(() => {
-  selected.value['WEAPON'] = { selected: selectedWeapon.value as T[], requiredPoint: getMaximumPoint(selectedWeapon.value) }
+  selected.value['WEAPON'] = { selected: [...selectedWeapon.value] as T[], requiredPoint: getMaximumPoint([...selectedWeapon.value]) }
 })
 const selectedShield = ref<T[]>(selected.value['SHIELD']?.selected ?? [])
 watchEffect(() => {
-  selected.value['SHIELD'] = { selected: selectedShield.value as T[], requiredPoint: getMaximumPoint(selectedShield.value) }
+  selected.value['SHIELD'] = { selected: [...selectedShield.value] as T[], requiredPoint: getMaximumPoint([...selectedShield.value]) }
 })
 const selectedDrive = ref<T[]>(selected.value['DRIVE']?.selected ?? [])
 watchEffect(() => {
-  selected.value['DRIVE'] = { selected: selectedDrive.value as T[], requiredPoint: getMaximumPoint(selectedDrive.value) }
+  selected.value['DRIVE'] = { selected: [...selectedDrive.value] as T[], requiredPoint: getMaximumPoint([...selectedDrive.value]) }
 })
 const selectedExtra = ref<T[]>(selected.value['EXTRA']?.selected ?? [])
 watchEffect(() => {
-  selected.value['EXTRA'] = { selected: selectedExtra.value as T[], requiredPoint: getMaximumPoint(selectedExtra.value) }
+  selected.value['EXTRA'] = { selected: [...selectedExtra.value] as T[], requiredPoint: getMaximumPoint([...selectedExtra.value]) }
 })
 
 </script>
