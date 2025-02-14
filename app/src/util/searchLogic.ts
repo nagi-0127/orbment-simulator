@@ -1,5 +1,5 @@
 import { solve } from 'yalps'
-import type { Model, Solution } from 'yalps'
+import type { Model, Solution, Coefficients } from 'yalps'
 
 /**
  * Pointオブジェクト取得(全属性0で初期化)
@@ -107,14 +107,13 @@ const getQuartzListFromResult = (result: object, slots: Slot[], validQuartz: Qua
 }
 
 /**
- * クオーツ組み合わせ検索
+ * ソルバーに渡すModelを生成
  * @param character 対象キャラクター
  * @param selectedSkills 選択スキル
  * @param selectedQuartz 選択クオーツ
- * @param n 検索最大件数
- * @returns 検索結果
+ * @returns Model
  */
-export const searchQuartzSet = async (character: Character, selectedSkills: { [key in Lines]: { requiredPoint: Point, selected: Skill[] } }, selectedQuartz: Quartz[], n: number=1): Promise<{ [key in Lines]?: (Quartz | null)[] }[] | null> => {
+export const getModel = (character: Character, selectedSkills: { [key in Lines]: { requiredPoint: Point, selected: Skill[] } }, selectedQuartz: Quartz[]): Model => {
   const lineInfo = { ...character.orbment }
 
   const variables: { [key: string]: { [key: string]: any } } = {}
@@ -125,7 +124,6 @@ export const searchQuartzSet = async (character: Character, selectedSkills: { [k
   const weights: { [key: string]: number } = {}
   // 必要ポイントを制約条件に追加
   for (const [line, { requiredPoint, selected }] of Object.entries(selectedSkills)) {
-    console.log({ requiredPoint, selected })
     // 検索スキルが選択されていないラインはスキップ
     if (selected.length == 0) {
       continue
@@ -243,91 +241,108 @@ export const searchQuartzSet = async (character: Character, selectedSkills: { [k
     // ints
     binaries: true
   }
+  return model
+}
 
-  console.log(model)
-  return new Promise<Solution[]>((resolve, reject) => {
-    const worker: Worker = new Worker(new URL('@/util/solverWorker.ts', import.meta.url), {type: 'module'})
-    const successResults: Solution[] = []
-    worker.onmessage = (ev: MessageEvent<Solution>) => {
-      console.log(ev.data)
-      if (ev.data.status === 'optimal') {
-        successResults.push(ev.data)
-        if (successResults.length >= n) {
-          resolve(successResults)
+
+export const parseSolution = (solution: Solution, character: Character, selectedQuartz: Quartz[]): { [key in Lines]?: (Quartz | null)[] } => {
+  const resultVal: { [key in Lines]?: (Quartz | null)[] } = {}
+  for (const line of Object.keys(character.orbment)) {
+    // 検索結果をスロット位置（属性専用の場合は位置固定, それ以外は-1）, クオーツIDに分解
+    const idSet = solution.variables
+      .filter(([k]) => k.startsWith(line))
+      .map(([id]) => {
+        const [_, pos, qid] = id.split('_')
+        return [parseInt(pos), parseInt(qid)]
+      })
+
+    const quartzList: (Quartz | null)[] = []
+    character.orbment[line as Lines].forEach(slot => {
+      if (slot.typeSpecified) {
+        const id = idSet.filter(([p, _]) => p === slot.position)?.[0]
+        if (id) {
+          idSet.splice(idSet.indexOf(id), 1)
+          const quartz: Quartz = selectedQuartz.filter(val => val.id == id[1])[0]
+          quartzList.push({
+            ...quartz,
+            // ポイント2倍
+            point: pointMultiply(quartz.point)
+          })
+        } else {
+          quartzList.push(null)
+        }
+      } else {
+        const id = idSet.filter(([p, _]) => p === -1)?.[0]
+        if (id) {
+          idSet.splice(idSet.indexOf(id), 1)
+          const quartz: Quartz = selectedQuartz.filter(val => val.id == id[1])[0]
+          quartzList.push({
+            ...quartz,
+          })
+        } else {
+          quartzList.push(null)
+        }
+      }
+    })
+    resultVal[line as Lines] = quartzList
+  }
+  return resultVal
+}
+
+
+/**
+ * クオーツ組み合わせ検索
+ * @param character 対象キャラクター
+ * @param selectedSkills 選択スキル
+ * @param selectedQuartz 選択クオーツ
+ * @param n 検索最大件数
+ * @returns 検索結果
+ */
+export const searchQuartz = (character: Character, selectedSkills: { [key in Lines]: { requiredPoint: Point, selected: Skill[] } }, selectedQuartz: Quartz[], n: number = 1): ReadableStream<{ [key in Lines]?: (Quartz | null)[] }> => {
+  let model = getModel(character, selectedSkills, selectedQuartz)
+
+  const worker: Worker = new Worker(new URL('@/util/solverWorker.ts', import.meta.url), { type: 'module' })
+  const stream = new ReadableStream<{ [key in Lines]?: (Quartz | null)[] } >({
+    start(controller) {
+      let counter = 0;
+      worker.onmessage = (ev: MessageEvent<Solution>) => {
+        console.log(ev.data)
+        if (ev.data.status === 'optimal') {
+          controller.enqueue(parseSolution(ev.data, character, selectedQuartz))
+          if (++counter >= n) {
+            worker.terminate();
+            controller.close();
+            return
+          }
+
+          // 同じ組み合わせを除外する制約を追加
+          const idList = ev.data.variables.map(([k]) => k)
+          const variables = { ...model.variables } as { [x: string]: { [name: string]: number } }
+          for (const varName in variables) {
+            variables[varName][`pattern${counter}`] = idList.includes(varName) ? 1 : 0
+          }
+          const constraints = { ...model.constraints } as { [x: string]: { [name: string]: number } }
+          constraints[`pattern${counter}`] = { max: ev.data.variables.length - 1 }
+
+          model = {
+            ...model,
+            variables,
+            constraints
+          }
+          // 再検索
+          worker.postMessage(model)
+        } else {
+          worker.terminate();
+          controller.close();
           return
         }
-        // 同じ組み合わせを除外する制約を追加
-        const idList = ev.data.variables.map(([k]) => k)
-        for (const varName of Object.keys(variables)) {
-          variables[varName][`pattern${successResults.length}`] = idList.includes(varName) ? 1 : 0
-        }
-        constraints[`pattern${successResults.length}`] = {max: ev.data.variables.length - 1}
-        // 再検索
-        worker.postMessage({
-          objective: 'total',
-          // direction: 'minimize',
-          variables: Object.fromEntries(
-            Object.entries(variables).map(([k, v]) => [k, { ...dummy, ...v }])
-          ),
-          constraints,
-          // ints
-          binaries: true
-        })
-      } else {
-        if (successResults.length > 0) {
-          resolve(successResults)
-        } else {
-          reject(ev.data)
-        }
       }
+      worker.postMessage(model);
+    },
+    cancel() {
+      worker.terminate()
     }
-    worker.postMessage(model)
-  }).then(solutions => {
-    // 解が得られたときのみ戻り値生成
-    const resultSet: { [key in Lines]?: (Quartz | null)[] }[] = []
-    solutions.forEach(solution => {
-      const resultVal: { [key in Lines]?: (Quartz | null)[] } = {}
-      for (const line of Object.keys(lineInfo)) {
-        // 検索結果をスロット位置（属性専用の場合は位置固定, それ以外は-1）, クオーツIDに分解
-        const idSet = solution.variables
-          .filter(([k]) => k.startsWith(line))
-          .map(([id]) => {
-            const [_, pos, qid] = id.split('_')
-            return [parseInt(pos), parseInt(qid)]
-          })
+  })
 
-        const quartzList: (Quartz | null)[] = []
-        lineInfo[line as Lines].forEach(slot => {
-          if (slot.typeSpecified) {
-            const id = idSet.filter(([p, _]) => p === slot.position)?.[0]
-            if (id) {
-              idSet.splice(idSet.indexOf(id), 1)
-              const quartz: Quartz = selectedQuartz.filter(val => val.id == id[1])[0]
-              quartzList.push({
-                ...quartz,
-                // ポイント2倍
-                point: pointMultiply(quartz.point)
-              })
-            } else {
-              quartzList.push(null)
-            }
-          } else {
-            const id = idSet.filter(([p, _]) => p === -1)?.[0]
-            if (id) {
-              idSet.splice(idSet.indexOf(id), 1)
-              const quartz: Quartz = selectedQuartz.filter(val => val.id == id[1])[0]
-              quartzList.push({
-                ...quartz,
-              })
-            } else {
-              quartzList.push(null)
-            }
-          }
-        })
-        resultVal[line as Lines] = quartzList
-      }
-      resultSet.push(resultVal)
-    })
-    return resultSet
-  }).catch(() => null)
+  return stream
 }

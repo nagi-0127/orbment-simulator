@@ -12,7 +12,7 @@
         <select-quartz :quartz-list="(quarts as Quartz[])" v-model:model-value="selectedQuartz"></select-quartz>
       </v-tabs-window-item>
     </v-tabs-window>
-    <v-container fluid>
+    <v-container>
       <v-row>
         <v-col cols="2">
           <v-select :items="characters" item-title="name" v-model="selectedCharacter" density="compact" hide-details
@@ -23,19 +23,20 @@
         </v-col>
       </v-row>
     </v-container>
-    <template v-if="isProcessing">
-      <v-skeleton-loader type="card"></v-skeleton-loader>
-    </template>
-    <template v-else>
-      <v-container fluid v-if="res !== null">
-        <template v-for="result in res">
-          <search-result :character="selectedCharacter" :skills="(skills as Skill[])" :result="result"></search-result>
-        </template>
-      </v-container>
-      <v-container fluid v-else-if="res === null">
-        <v-alert text="検索結果がありません" type="warning"></v-alert>
-      </v-container>
-    </template>
+    <v-container v-if="res !== null">
+      <v-row dense>
+        <v-col v-for="result in res" cols="12">
+          <search-result :character="selectedCharacter" :skills="(skills as Skill[])" :result="result"
+            :is-searching="isProcessing"></search-result>
+        </v-col>
+        <v-col cols="12">
+          <v-skeleton-loader v-if="isProcessing" type="card"></v-skeleton-loader>
+        </v-col>
+      </v-row>
+    </v-container>
+    <v-container fluid v-else-if="res === null">
+      <v-alert text="検索結果がありません" type="warning"></v-alert>
+    </v-container>
   </v-container>
 </template>
 
@@ -50,7 +51,7 @@ import SelectSkill from '@/components/SelectSkill.vue'
 import SelectQuartz from '@/components/SelectQuartz.vue';
 import SearchResult from '@/components/SearchResult.vue';
 
-import { getZeroPoint, searchQuartzSet } from '@/util/searchLogic';
+import { getZeroPoint, searchQuartz } from '@/util/searchLogic';
 
 const tab = ref(null)
 
@@ -72,11 +73,26 @@ watch(selectedCharacter, () => {
 })
 
 const onSearchClick = () => {
-  const result = searchQuartzSet({ ...selectedCharacter.value }, {...selectedSkills.value}, [...selectedQuartz.value], 1)
-  console.log(result)
-  result.then(result => {
-    res.value = result
-  }).finally(() => { isProcessing.value = false })
+  isProcessing.value = true;
+  res.value = [];
+  const reader = searchQuartz({ ...selectedCharacter.value }, { ...selectedSkills.value }, [...selectedQuartz.value], 5).getReader()
+  reader.read()
+    .then(function readResult({ done, value }) {
+      if (done) {
+        if (res.value?.length === 0) {
+          res.value = null
+        }
+        isProcessing.value = false;
+        return
+      }
+      console.log(value)
+      if (!res.value) {
+        res.value = [value]
+      } else {
+        res.value.push(value)
+      }
+      reader.read().then(readResult)
+    })
 }
 
 </script>
