@@ -8,7 +8,12 @@
               <th class="border">{{ line }}</th>
               <td v-for="i in 4"
                 :class="{ border: true, [`${props.character.orbment[line]?.[i - 1]?.type}`]: props.character.orbment[line]?.[i - 1]?.typeSpecified, none: !props.character.orbment[line]?.[i - 1] }">
-                {{ props.result?.[line]?.[i - 1]?.name }}
+                <!-- <v-list density="compact">
+                  <v-list-item v-for="val in props.result?.[line]?.[i - 1]">
+                    {{ val?.name }}
+                  </v-list-item>
+                </v-list> -->
+                <p v-for="val in props.result?.[line]?.[i - 1]">{{ val?.name }}</p>
               </td>
             </tr>
           </v-table>
@@ -39,7 +44,7 @@ import { pointAdd, getZeroPoint } from '@/util/searchLogic'
 const props = defineProps<{
   character: Character,
   skills: Skill[],
-  result: { [key in Lines]?: (Quartz | null)[] },
+  result: { [key in Lines]?: ( Quartz[] | null)[] },
   isSearching?: boolean
 }>()
 
@@ -51,7 +56,7 @@ const activeSkills = computed<{ [key in Lines]?: (Skill)[] }>(() => {
     let p = getZeroPoint()
     const resultQuartz = props.result[key as Lines]
     resultQuartz?.forEach(r => {
-      p = pointAdd(p, r?.point ?? getZeroPoint())
+      p = pointAdd(p, r?.[0]?.point ?? getZeroPoint())
     })
     const activeSkill = props.skills.filter(skill => skill.line === key).filter(skill => {
       return Object.keys(skill.point).reduce((prev, cur) => {

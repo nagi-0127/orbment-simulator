@@ -56,6 +56,7 @@ import { getZeroPoint, searchQuartz } from '@/util/searchLogic';
 const tab = ref(null)
 
 const selectedCharacter = shallowRef<Character>(characters[0] as Character)
+// const selectedQuartz = shallowRef<Quartz[]>([])
 const selectedQuartz = shallowRef<Quartz[]>([...quarts] as Quartz[])
 const selectedSkills = shallowRef<{ [key in Lines]: { requiredPoint: Point, selected: Skill[] } }>({
   WEAPON: { selected: [], requiredPoint: getZeroPoint() },
@@ -64,7 +65,7 @@ const selectedSkills = shallowRef<{ [key in Lines]: { requiredPoint: Point, sele
   EXTRA: { selected: [], requiredPoint: getZeroPoint() }
 })
 
-const res = ref<{ [key in Lines]?: (Quartz | null)[] }[] | null | undefined>(undefined)
+const res = ref<{ [key in Lines]?: ( Quartz[] | null)[] }[] | null | undefined>(undefined)
 const isProcessing = ref<boolean>(false)
 
 watch(selectedCharacter, () => {
