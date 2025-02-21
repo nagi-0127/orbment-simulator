@@ -667,8 +667,8 @@
     "point": {
       "EARTH": 0,
       "WATER": 0,
-      "FIRE": 4,
-      "WIND": 2,
+      "FIRE": 2,
+      "WIND": 4,
       "TIME": 0,
       "SKY": 0,
       "MIRAGE": 0
@@ -682,8 +682,8 @@
     "point": {
       "EARTH": 0,
       "WATER": 0,
-      "FIRE": 10,
-      "WIND": 5,
+      "FIRE": 5,
+      "WIND": 10,
       "TIME": 0,
       "SKY": 0,
       "MIRAGE": 0
