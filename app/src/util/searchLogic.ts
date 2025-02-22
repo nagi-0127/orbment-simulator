@@ -113,7 +113,7 @@ const getQuartzListFromResult = (result: object, slots: Slot[], validQuartz: Qua
  * @param selectedQuartz 選択クオーツ
  * @returns Model
  */
-export const getModel = (character: Character, selectedSkills: { [key in Lines]: { requiredPoint: Point, selected: Skill[] } }, selectedQuartz: Quartz[]): Model => {
+export const getModel = (character: Character, selectedSkills: { [key in Lines]: { requiredPoint: Point, selected: Skill[] } }, selectedQuartz: Quartz[],  requiredQuartz: Quartz[]): Model => {
   const lineInfo = { ...character.orbment }
 
   const variables: { [key: string]: { [key: string]: any } } = {}
@@ -125,9 +125,9 @@ export const getModel = (character: Character, selectedSkills: { [key in Lines]:
   // 必要ポイントを制約条件に追加
   for (const [line, { requiredPoint, selected }] of Object.entries(selectedSkills)) {
     // 検索スキルが選択されていないラインはスキップ
-    if (selected.length == 0) {
-      continue
-    }
+    // if (selected.length == 0) {
+    //   continue
+    // }
     for (const [type, point] of Object.entries(requiredPoint)) {
       if (point !== 0) {
         constraints[`${line}_${type}`] = { min: point }
@@ -140,10 +140,10 @@ export const getModel = (character: Character, selectedSkills: { [key in Lines]:
   const varKeysAll: string[] = []
 
   for (const line of Object.keys(lineInfo)) {
-    if (selectedSkills[line as Lines].selected.length == 0) {
-      // 検索スキルが選択されていないラインはスキップ
-      continue
-    }
+    // if (selectedSkills[line as Lines].selected.length == 0) {
+    //   // 検索スキルが選択されていないラインはスキップ
+    //   continue
+    // }
     const slots = lineInfo[line as Lines]
     // 属性専用以外のスロット数
     const n_non_type_slot = slots.filter(s => !s.typeSpecified).length
@@ -162,7 +162,7 @@ export const getModel = (character: Character, selectedSkills: { [key in Lines]:
       const total = Object.entries(linePoint).reduce((sum, [k, v]) => {
         return sum + v * (weights[k] ?? 0)
       }, 0)
-      if (total === 0) {
+      if (total === 0 && !requiredQuartz.includes(quartz)) {
         // 探索対象のスキルのポイントを持たないクオーツは変数に加えない
         continue
       }
@@ -192,8 +192,9 @@ export const getModel = (character: Character, selectedSkills: { [key in Lines]:
           const total = Object.entries(linePoint).reduce((sum, [k, v]) => {
             return sum + v * (weights[k] ?? 0)
           }, 0)
-          if (total === 0) {
+          if (total === 0 && !requiredQuartz.includes(quartz)) {
             // 探索対象のスキルのポイントを持たないクオーツは変数に加えない
+            // 必須クオーツは加える
             continue
           }
 
@@ -226,6 +227,10 @@ export const getModel = (character: Character, selectedSkills: { [key in Lines]:
     if (Object.values(variables).filter(v => quartzId in v).length > 1) {
       // 同じクオーツを使用できるのは1回まで
       constraints[quartzId] = { max: 1 }
+      // 必須クオーツは最小1(必ずセット)
+      if (requiredQuartz.includes(quartz)) {
+        constraints[quartzId] = {...constraints[quartzId], min: 1}
+      }
     }
   })
 
@@ -298,8 +303,9 @@ export const parseSolution = (solution: Solution, character: Character, selected
  * @param n 検索最大件数
  * @returns 検索結果
  */
-export const searchQuartz = (character: Character, selectedSkills: { [key in Lines]: { requiredPoint: Point, selected: Skill[] } }, selectedQuartz: Quartz[], n: number = 1): ReadableStream<{ [key in Lines]?: (Quartz | null)[] }> => {
-  let model = getModel(character, selectedSkills, selectedQuartz)
+export const searchQuartz = (character: Character, selectedSkills: { [key in Lines]: { requiredPoint: Point, selected: Skill[] } }, selectedQuartz: Quartz[],  requiredQuartz: Quartz[]=[], n: number = 1): ReadableStream<{ [key in Lines]?: (Quartz | null)[] }> => {
+  let model = getModel(character, selectedSkills, selectedQuartz, requiredQuartz)
+  console.log(model)
 
   const worker: Worker = new Worker(new URL('@/util/solverWorker.ts', import.meta.url), { type: 'module' })
   const stream = new ReadableStream<{ [key in Lines]?: (Quartz | null)[] } >({
