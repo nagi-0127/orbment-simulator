@@ -18,6 +18,11 @@
           <v-select :items="characters" item-title="name" v-model="selectedCharacter" density="compact" hide-details
             return-object></v-select>
         </v-col>
+        <v-col cols="3">
+          <v-select label="必須クオーツ" :items="selectedQuartz" v-model:model-value="requiredQuartz"
+            :item-props="(item => { return { title: item.name, subtitle: item.description } })" density="compact"
+            hide-details multiple></v-select>
+        </v-col>
         <v-col>
           <v-btn @click="() => onSearchClick()" :disabled="isProcessing">Search</v-btn>
         </v-col>
@@ -41,7 +46,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, shallowRef, watch } from 'vue';
+import { ref, shallowRef, watch, watchEffect } from 'vue';
 
 import characters from '@/assets/data/kai/characters.json'
 import skills from '@/assets/data/kai/shard_skill.json'
@@ -57,6 +62,10 @@ const tab = ref(null)
 
 const selectedCharacter = shallowRef<Character>(characters[0] as Character)
 const selectedQuartz = shallowRef<Quartz[]>([...quarts] as Quartz[])
+const requiredQuartz = shallowRef<Quartz[]>([])
+watchEffect(() => {
+  requiredQuartz.value = requiredQuartz.value.filter(quartz => selectedQuartz.value.includes(quartz))
+})
 const selectedSkills = shallowRef<{ [key in Lines]: { requiredPoint: Point, selected: Skill[] } }>({
   WEAPON: { selected: [], requiredPoint: getZeroPoint() },
   SHIELD: { selected: [], requiredPoint: getZeroPoint() },
@@ -75,7 +84,7 @@ watch(selectedCharacter, () => {
 const onSearchClick = () => {
   isProcessing.value = true;
   res.value = [];
-  const reader = searchQuartz({ ...selectedCharacter.value }, { ...selectedSkills.value }, [...selectedQuartz.value], 5).getReader()
+  const reader = searchQuartz({ ...selectedCharacter.value }, { ...selectedSkills.value }, [...selectedQuartz.value], [...requiredQuartz.value], 5).getReader()
   reader.read()
     .then(function readResult({ done, value }) {
       if (done) {
