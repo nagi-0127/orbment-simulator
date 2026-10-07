@@ -2,8 +2,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 import NavigationBar from '@/components/NavigationBar.vue'
 import TopView from '@/views/TopView.vue'
 
-import KaiView from '@/views/KaiView.vue'
-
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -32,6 +30,34 @@ const router = createRouter({
       },
       components: {
         default: () => import('@/views/KaiView.vue'),
+        navbar: NavigationBar
+      },
+    },
+    {
+      path: '/sora1st',
+      name: 'sora1st',
+      props: {
+        default: false,
+        navbar: {
+          title: '空の軌跡 the 1st'
+        }
+      },
+      components: {
+        default: () => import('@/views/SoraView.vue'),
+        navbar: NavigationBar
+      },
+    },
+    {
+      path: '/sora2nd',
+      name: 'sora2nd',
+      props: {
+        default: false,
+        navbar: {
+          title: '空の軌跡 the 2nd'
+        }
+      },
+      components: {
+        default: () => import('@/views/SoraView.vue'),
         navbar: NavigationBar
       },
     },
