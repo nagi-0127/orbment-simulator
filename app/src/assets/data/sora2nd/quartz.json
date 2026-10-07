@@ -1,0 +1,2178 @@
+[
+  {
+    "id": 1,
+    "name": "防御1",
+    "type": "EARTH",
+    "group": [],
+    "rank": "1",
+    "description": "DEF+25%",
+    "point": {
+      "EARTH": 1,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 2,
+    "name": "防御2",
+    "type": "EARTH",
+    "group": [],
+    "rank": "1",
+    "description": "DEF+30%",
+    "point": {
+      "EARTH": 2,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 3,
+    "name": "防御3",
+    "type": "EARTH",
+    "group": [],
+    "rank": "2",
+    "description": "DEF+35%",
+    "point": {
+      "EARTH": 3,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 4,
+    "name": "防御4",
+    "type": "EARTH",
+    "group": [],
+    "rank": "2",
+    "description": "DEF+40%",
+    "point": {
+      "EARTH": 4,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 5,
+    "name": "琥耀珠",
+    "type": "EARTH",
+    "group": [],
+    "rank": "3",
+    "description": "DEF+45%",
+    "point": {
+      "EARTH": 5,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 6,
+    "name": "真・琥耀珠",
+    "type": "EARTH",
+    "group": [],
+    "rank": "3",
+    "description": "SPD+3 DEF+60%",
+    "point": {
+      "EARTH": 5,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 7,
+    "name": "破壊1",
+    "type": "EARTH",
+    "group": [],
+    "rank": "1",
+    "description": "STR+15 与スタン値+40%",
+    "point": {
+      "EARTH": 1,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 8,
+    "name": "破壊2",
+    "type": "EARTH",
+    "group": [],
+    "rank": "1",
+    "description": "STR+30 与スタン値+50%",
+    "point": {
+      "EARTH": 2,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 9,
+    "name": "破壊3",
+    "type": "EARTH",
+    "group": [],
+    "rank": "2",
+    "description": "STR+45 与スタン値+60%",
+    "point": {
+      "EARTH": 3,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 10,
+    "name": "破壊4",
+    "type": "EARTH",
+    "group": [],
+    "rank": "2",
+    "description": "STR+60 与スタン値+70%",
+    "point": {
+      "EARTH": 4,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 11,
+    "name": "羅漢珠",
+    "type": "EARTH",
+    "group": [],
+    "rank": "3",
+    "description": "STR+75 与スタン値+80%",
+    "point": {
+      "EARTH": 5,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 12,
+    "name": "真・羅漢珠",
+    "type": "EARTH",
+    "group": [],
+    "rank": "3",
+    "description": "STR+90 SPD+3 与スタン値+90%",
+    "point": {
+      "EARTH": 5,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 13,
+    "name": "毒の刃",
+    "type": "EARTH",
+    "group": [],
+    "rank": "1",
+    "description": "通常攻撃・クラフト時に確率15%で「毒」",
+    "point": {
+      "EARTH": 1,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 14,
+    "name": "毒の理",
+    "type": "EARTH",
+    "group": [],
+    "rank": "2",
+    "description": "SPD+5 「毒」状態の敵に与えるダメージ+50%",
+    "point": {
+      "EARTH": 5,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 15,
+    "name": "石化の刃",
+    "type": "EARTH",
+    "group": [],
+    "rank": "1",
+    "description": "通常攻撃・クラフト時に確率10%で「石化」",
+    "point": {
+      "EARTH": 2,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 16,
+    "name": "石化の理",
+    "type": "EARTH",
+    "group": [],
+    "rank": "2",
+    "description": "SPD+5 「石化」状態の敵に与えるダメージ+200%",
+    "point": {
+      "EARTH": 5,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 17,
+    "name": "黄玉の盾",
+    "type": "EARTH",
+    "group": [],
+    "rank": "1",
+    "description": "ピンチ時に4ターンDEF・ADF↑",
+    "point": {
+      "EARTH": 3,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 2
+    }
+  },
+  {
+    "id": 18,
+    "name": "耀脈",
+    "type": "EARTH",
+    "group": [],
+    "rank": "2",
+    "description": "コマンドバトルで装備者が敵を倒すと入手セピス量+30%",
+    "point": {
+      "EARTH": 3,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 3,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 19,
+    "name": "牙城",
+    "type": "EARTH",
+    "group": [],
+    "rank": "2",
+    "description": "STR・DEF+50 自身にかかった「シールド」の効果3倍",
+    "point": {
+      "EARTH": 4,
+      "WATER": 3,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 3,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 20,
+    "name": "精神1",
+    "type": "WATER",
+    "group": [],
+    "rank": "1",
+    "description": "ATS+15%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 1,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 21,
+    "name": "精神2",
+    "type": "WATER",
+    "group": [],
+    "rank": "1",
+    "description": "ATS+20%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 2,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 22,
+    "name": "精神3",
+    "type": "WATER",
+    "group": [],
+    "rank": "2",
+    "description": "ATS+25%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 3,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 23,
+    "name": "精神4",
+    "type": "WATER",
+    "group": [],
+    "rank": "2",
+    "description": "ATS+30%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 4,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 24,
+    "name": "蒼耀珠",
+    "type": "WATER",
+    "group": [],
+    "rank": "3",
+    "description": "ATS+35%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 5,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 25,
+    "name": "真・蒼耀珠",
+    "type": "WATER",
+    "group": [],
+    "rank": "3",
+    "description": "SPD+3 ATS+50%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 5,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 26,
+    "name": "HP1",
+    "type": "WATER",
+    "group": [],
+    "rank": "1",
+    "description": "最大HP25%アップ",
+    "point": {
+      "EARTH": 0,
+      "WATER": 1,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 27,
+    "name": "HP2",
+    "type": "WATER",
+    "group": [],
+    "rank": "1",
+    "description": "最大HP30%アップ",
+    "point": {
+      "EARTH": 0,
+      "WATER": 2,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 28,
+    "name": "HP3",
+    "type": "WATER",
+    "group": [],
+    "rank": "2",
+    "description": "最大HP35%アップ",
+    "point": {
+      "EARTH": 0,
+      "WATER": 3,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 29,
+    "name": "HP4",
+    "type": "WATER",
+    "group": [],
+    "rank": "2",
+    "description": "最大HP40%アップ",
+    "point": {
+      "EARTH": 0,
+      "WATER": 4,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 30,
+    "name": "弁天珠",
+    "type": "WATER",
+    "group": [],
+    "rank": "3",
+    "description": "最大HP45%アップ",
+    "point": {
+      "EARTH": 0,
+      "WATER": 5,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 31,
+    "name": "真・弁天珠",
+    "type": "WATER",
+    "group": [],
+    "rank": "3",
+    "description": "最大HP60%アップ",
+    "point": {
+      "EARTH": 0,
+      "WATER": 5,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 32,
+    "name": "凍結の刃",
+    "type": "WATER",
+    "group": [],
+    "rank": "1",
+    "description": "通常攻撃・クラフト時に確率10%で「凍結」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 2,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 33,
+    "name": "凍結の理",
+    "type": "WATER",
+    "group": [],
+    "rank": "2",
+    "description": "SPD+5 「凍結」状態の敵に与えるダメージ+50%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 5,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 34,
+    "name": "蒼玉の盾",
+    "type": "WATER",
+    "group": [],
+    "rank": "1",
+    "description": "ピンチ時に4ターン「HP徐々回復」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 3,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 2
+    }
+  },
+  {
+    "id": 35,
+    "name": "治癒",
+    "type": "WATER",
+    "group": [],
+    "rank": "2",
+    "description": "フィールドでHP徐々に回復",
+    "point": {
+      "EARTH": 0,
+      "WATER": 3,
+      "FIRE": 3,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 36,
+    "name": "慈愛",
+    "type": "WATER",
+    "group": [],
+    "rank": "2",
+    "description": "回復アーツの効果+30%",
+    "point": {
+      "EARTH": 4,
+      "WATER": 4,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 37,
+    "name": "瀑布",
+    "type": "WATER",
+    "group": [],
+    "rank": "2",
+    "description": "攻撃アーツでHP回復",
+    "point": {
+      "EARTH": 3,
+      "WATER": 3,
+      "FIRE": 3,
+      "WIND": 3,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 38,
+    "name": "攻撃1",
+    "type": "FIRE",
+    "group": [],
+    "rank": "1",
+    "description": "STR+15% DEF-3%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 1,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 39,
+    "name": "攻撃2",
+    "type": "FIRE",
+    "group": [],
+    "rank": "1",
+    "description": "STR+20% DEF-6%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 2,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 40,
+    "name": "攻撃3",
+    "type": "FIRE",
+    "group": [],
+    "rank": "2",
+    "description": "STR+25% DEF-9%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 3,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 41,
+    "name": "攻撃4",
+    "type": "FIRE",
+    "group": [],
+    "rank": "2",
+    "description": "STR+30% DEF-12%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 4,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 42,
+    "name": "紅耀珠",
+    "type": "FIRE",
+    "group": [],
+    "rank": "3",
+    "description": "STR+35% DEF-15%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 5,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 43,
+    "name": "真・紅耀珠",
+    "type": "FIRE",
+    "group": [],
+    "rank": "3",
+    "description": "SPD+3 STR+50% DEF-15%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 5,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 44,
+    "name": "必殺1",
+    "type": "FIRE",
+    "group": [],
+    "rank": "1",
+    "description": "必殺率+3%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 1,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 45,
+    "name": "必殺2",
+    "type": "FIRE",
+    "group": [],
+    "rank": "1",
+    "description": "必殺率+5%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 2,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 46,
+    "name": "必殺3",
+    "type": "FIRE",
+    "group": [],
+    "rank": "2",
+    "description": "必殺率+7%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 3,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 47,
+    "name": "必殺4",
+    "type": "FIRE",
+    "group": [],
+    "rank": "2",
+    "description": "SPD+3 必殺率+9%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 4,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 48,
+    "name": "武神珠",
+    "type": "FIRE",
+    "group": [],
+    "rank": "3",
+    "description": "SPD+6 必殺率+12%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 5,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 49,
+    "name": "真・武神珠",
+    "type": "FIRE",
+    "group": [],
+    "rank": "3",
+    "description": "SPD+9 必殺率+15%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 5,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 50,
+    "name": "炎傷の刃",
+    "type": "FIRE",
+    "group": [],
+    "rank": "1",
+    "description": "通常攻撃・クラフト時に確率15%で「炎傷」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 1,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 51,
+    "name": "炎傷の理",
+    "type": "FIRE",
+    "group": [],
+    "rank": "2",
+    "description": "SPD+5 「炎傷」状態の敵に与えるダメージ+50%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 5,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 52,
+    "name": "封技の刃",
+    "type": "FIRE",
+    "group": [],
+    "rank": "1",
+    "description": "通常攻撃・クラフト時に確率15%で「封技」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 2,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 53,
+    "name": "封技の理",
+    "type": "FIRE",
+    "group": [],
+    "rank": "2",
+    "description": "SPD+5 「封技」状態の敵に与えるダメージ+50%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 5,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 54,
+    "name": "紅玉の盾",
+    "type": "FIRE",
+    "group": [],
+    "rank": "1",
+    "description": "ピンチ時に4ターンSTR↑",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 3,
+      "WIND": 0,
+      "TIME": 2,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 55,
+    "name": "機功",
+    "type": "FIRE",
+    "group": [],
+    "rank": "2",
+    "description": "フィールドでEP徐々に回復",
+    "point": {
+      "EARTH": 3,
+      "WATER": 0,
+      "FIRE": 3,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 56,
+    "name": "熾剣",
+    "type": "FIRE",
+    "group": [],
+    "rank": "2",
+    "description": "Sクラフトの威力アップ+30%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 4,
+      "WIND": 3,
+      "TIME": 3,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 57,
+    "name": "魔防1",
+    "type": "WIND",
+    "group": [],
+    "rank": "1",
+    "description": "魔法回避率+3% ADF+25%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 1,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 58,
+    "name": "魔防2",
+    "type": "WIND",
+    "group": [],
+    "rank": "1",
+    "description": "魔法回避率+5% ADF+30%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 2,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 59,
+    "name": "魔防3",
+    "type": "WIND",
+    "group": [],
+    "rank": "2",
+    "description": "魔法回避率+7% ADF+35%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 3,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 60,
+    "name": "魔防4",
+    "type": "WIND",
+    "group": [],
+    "rank": "2",
+    "description": "SPD+3 魔法回避率+9% ADF+40%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 4,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 61,
+    "name": "翠耀珠",
+    "type": "WIND",
+    "group": [],
+    "rank": "3",
+    "description": "SPD+6 魔法回避率+12% ADF+45%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 5,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 62,
+    "name": "真・翠耀珠",
+    "type": "WIND",
+    "group": [],
+    "rank": "3",
+    "description": "SPD+9 魔法回避率+15% ADF+60%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 5,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 63,
+    "name": "回避1",
+    "type": "WIND",
+    "group": [],
+    "rank": "1",
+    "description": "回避率+3%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 1,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 64,
+    "name": "回避2",
+    "type": "WIND",
+    "group": [],
+    "rank": "1",
+    "description": "回避率+5%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 2,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 65,
+    "name": "回避3",
+    "type": "WIND",
+    "group": [],
+    "rank": "2",
+    "description": "回避率+7%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 3,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 66,
+    "name": "回避4",
+    "type": "WIND",
+    "group": [],
+    "rank": "2",
+    "description": "SPD+3 回避率+9%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 4,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 67,
+    "name": "雷公珠",
+    "type": "WIND",
+    "group": [],
+    "rank": "3",
+    "description": "SPD+6 回避率+12%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 5,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 68,
+    "name": "真・雷公珠",
+    "type": "WIND",
+    "group": [],
+    "rank": "3",
+    "description": "SPD+9 回避率+15%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 5,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 69,
+    "name": "睡眠の刃",
+    "type": "WIND",
+    "group": [],
+    "rank": "1",
+    "description": "通常攻撃・クラフト時に確率15%で「睡眠」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 2,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 70,
+    "name": "睡眠の理",
+    "type": "WIND",
+    "group": [],
+    "rank": "2",
+    "description": "SPD+5 「睡眠」状態の敵に与えるダメージ+50%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 5,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 71,
+    "name": "翠玉の盾",
+    "type": "WIND",
+    "group": [],
+    "rank": "1",
+    "description": "ピンチ時に2ターン「心眼」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 3,
+      "TIME": 0,
+      "SKY": 2,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 72,
+    "name": "美臭",
+    "type": "WIND",
+    "group": [],
+    "rank": "2",
+    "description": "フィールドおよびコマンドバトル中、敵から狙われやすくなる",
+    "point": {
+      "EARTH": 3,
+      "WATER": 3,
+      "FIRE": 3,
+      "WIND": 3,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 73,
+    "name": "薫風",
+    "type": "WIND",
+    "group": [],
+    "rank": "2",
+    "description": "アイテムの効果+30%・射程距離+30m",
+    "point": {
+      "EARTH": 0,
+      "WATER": 3,
+      "FIRE": 0,
+      "WIND": 3,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 74,
+    "name": "暴威",
+    "type": "WIND",
+    "group": [],
+    "rank": "2",
+    "description": "残りHPが少ないほど魔法ダメージ上昇(最大+200%)",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 4,
+      "WIND": 4,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 75,
+    "name": "行動力1",
+    "type": "TIME",
+    "group": [],
+    "rank": "1",
+    "description": "SPD+15%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 1,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 76,
+    "name": "行動力2",
+    "type": "TIME",
+    "group": [],
+    "rank": "1",
+    "description": "SPD+20%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 2,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 77,
+    "name": "行動力3",
+    "type": "TIME",
+    "group": [],
+    "rank": "2",
+    "description": "SPD+25%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 3,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 78,
+    "name": "行動力4",
+    "type": "TIME",
+    "group": [],
+    "rank": "2",
+    "description": "SPD+30%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 4,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 79,
+    "name": "黒耀珠",
+    "type": "TIME",
+    "group": [],
+    "rank": "3",
+    "description": "SPD+35%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 5,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 80,
+    "name": "真・黒耀珠",
+    "type": "TIME",
+    "group": [],
+    "rank": "3",
+    "description": "SPD+50%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 5,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 81,
+    "name": "駆動1",
+    "type": "TIME",
+    "group": [],
+    "rank": "1",
+    "description": "ATS+15 アーツ駆動時間0.8倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 1,
+      "SKY": 0,
+      "MIRAGE": 1
+    }
+  },
+  {
+    "id": 82,
+    "name": "駆動2",
+    "type": "TIME",
+    "group": [],
+    "rank": "1",
+    "description": "ATS+30 アーツ駆動時間0.7倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 2,
+      "SKY": 1,
+      "MIRAGE": 1
+    }
+  },
+  {
+    "id": 83,
+    "name": "駆動3",
+    "type": "TIME",
+    "group": [],
+    "rank": "2",
+    "description": "ATS+45 アーツ駆動時間0.6倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 3,
+      "SKY": 1,
+      "MIRAGE": 2
+    }
+  },
+  {
+    "id": 84,
+    "name": "駆動4",
+    "type": "TIME",
+    "group": [],
+    "rank": "2",
+    "description": "ATS+60 アーツ駆動時間0.5倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 4,
+      "SKY": 2,
+      "MIRAGE": 2
+    }
+  },
+  {
+    "id": 85,
+    "name": "冥皇珠",
+    "type": "TIME",
+    "group": [],
+    "rank": "3",
+    "description": "ATS+75 アーツ駆動時間0.4倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 5,
+      "SKY": 2,
+      "MIRAGE": 3
+    }
+  },
+  {
+    "id": 86,
+    "name": "真・冥皇珠",
+    "type": "TIME",
+    "group": [],
+    "rank": "3",
+    "description": "ATS+90 アーツ駆動時間0.3倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 5,
+      "SKY": 2,
+      "MIRAGE": 3
+    }
+  },
+  {
+    "id": 87,
+    "name": "暗闇の刃",
+    "type": "TIME",
+    "group": [],
+    "rank": "1",
+    "description": "通常攻撃・クラフト時に確率15%で「暗闇」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 1,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 88,
+    "name": "暗闇の理",
+    "type": "TIME",
+    "group": [],
+    "rank": "2",
+    "description": "SPD+5 「暗闇」状態の敵に与えるダメージ+50%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 5,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 89,
+    "name": "死の刃",
+    "type": "TIME",
+    "group": [],
+    "rank": "1",
+    "description": "STR+25 通常攻撃・クラフト時に確率10%で「即死」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 3,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 90,
+    "name": "闇玉の盾",
+    "type": "TIME",
+    "group": [],
+    "rank": "1",
+    "description": "SPD+7 ピンチ時に4ターンSPD・MOV↑",
+    "point": {
+      "EARTH": 0,
+      "WATER": 2,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 3,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 91,
+    "name": "豪運",
+    "type": "TIME",
+    "group": [],
+    "rank": "2",
+    "description": "コマンドバトルで装備者が敵を倒すとITEMドロップ率+50%",
+    "point": {
+      "EARTH": 4,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 4,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 92,
+    "name": "軽業",
+    "type": "TIME",
+    "group": [],
+    "rank": "2",
+    "description": "通常クラフトの硬直時間0.8倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 3,
+      "TIME": 4,
+      "SKY": 0,
+      "MIRAGE": 3
+    }
+  },
+  {
+    "id": 93,
+    "name": "命中1",
+    "type": "SKY",
+    "group": [],
+    "rank": "1",
+    "description": "STR+15 命中率+60%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 1,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 94,
+    "name": "命中2",
+    "type": "SKY",
+    "group": [],
+    "rank": "1",
+    "description": "STR+30 命中率+75%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 2,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 95,
+    "name": "命中3",
+    "type": "SKY",
+    "group": [],
+    "rank": "2",
+    "description": "STR+45 命中率+90%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 3,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 96,
+    "name": "命中4",
+    "type": "SKY",
+    "group": [],
+    "rank": "2",
+    "description": "STR+60 命中率+100%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 4,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 97,
+    "name": "金耀珠",
+    "type": "SKY",
+    "group": [],
+    "rank": "3",
+    "description": "STR+75 命中率+150%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 5,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 98,
+    "name": "真・金耀珠",
+    "type": "SKY",
+    "group": [],
+    "rank": "3",
+    "description": "STR+90 SPD+6 命中率+200%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 5,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 99,
+    "name": "省EP1",
+    "type": "SKY",
+    "group": [],
+    "rank": "1",
+    "description": "消費EP0.85倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 1,
+      "SKY": 1,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 100,
+    "name": "省EP2",
+    "type": "SKY",
+    "group": [],
+    "rank": "1",
+    "description": "消費EP0.8倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 1,
+      "SKY": 2,
+      "MIRAGE": 1
+    }
+  },
+  {
+    "id": 101,
+    "name": "省EP3",
+    "type": "SKY",
+    "group": [],
+    "rank": "2",
+    "description": "消費EP0.75倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 2,
+      "SKY": 3,
+      "MIRAGE": 1
+    }
+  },
+  {
+    "id": 102,
+    "name": "省EP4",
+    "type": "SKY",
+    "group": [],
+    "rank": "2",
+    "description": "消費EP0.7倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 2,
+      "SKY": 4,
+      "MIRAGE": 2
+    }
+  },
+  {
+    "id": 103,
+    "name": "天帝珠",
+    "type": "SKY",
+    "group": [],
+    "rank": "3",
+    "description": "消費EP0.65倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 3,
+      "SKY": 5,
+      "MIRAGE": 2
+    }
+  },
+  {
+    "id": 104,
+    "name": "真・天帝珠",
+    "type": "SKY",
+    "group": [],
+    "rank": "3",
+    "description": "消費EP0.5倍",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 3,
+      "SKY": 5,
+      "MIRAGE": 2
+    }
+  },
+  {
+    "id": 105,
+    "name": "封魔の刃",
+    "type": "SKY",
+    "group": [],
+    "rank": "1",
+    "description": "STR+25 通常攻撃・クラフト時に確率30%で「封魔」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 3,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 106,
+    "name": "封魔の理",
+    "type": "SKY",
+    "group": [],
+    "rank": "2",
+    "description": "SPD+7 「封魔」状態の敵に与えるダメージ+50%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 5,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 107,
+    "name": "黄金の盾",
+    "type": "SKY",
+    "group": [],
+    "rank": "1",
+    "description": "DEF・ADF+50 ピンチ時に4ターン「CP徐々回復」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 2,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 3,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 108,
+    "name": "慧眼",
+    "type": "SKY",
+    "group": [],
+    "rank": "2",
+    "description": "弱点属性アーツのダメージ+30%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 2,
+      "FIRE": 0,
+      "WIND": 2,
+      "TIME": 0,
+      "SKY": 2,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 109,
+    "name": "天啓",
+    "type": "SKY",
+    "group": [],
+    "rank": "2",
+    "description": "範囲アーツの効果範囲+5m",
+    "point": {
+      "EARTH": 0,
+      "WATER": 3,
+      "FIRE": 3,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 4,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 110,
+    "name": "孤剣",
+    "type": "SKY",
+    "group": [],
+    "rank": "2",
+    "description": "残りHPが少ないほど物理ダメージ上昇（最大+200%）",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 4,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 4,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 111,
+    "name": "妨害1",
+    "type": "MIRAGE",
+    "group": [],
+    "rank": "1",
+    "description": "攻撃時に確率30%で「駆動解除／遅延極小」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 1
+    }
+  },
+  {
+    "id": 112,
+    "name": "妨害2",
+    "type": "MIRAGE",
+    "group": [],
+    "rank": "1",
+    "description": "攻撃時に確率45%で「駆動解除／遅延極小」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 2
+    }
+  },
+  {
+    "id": 113,
+    "name": "妨害3",
+    "type": "MIRAGE",
+    "group": [],
+    "rank": "2",
+    "description": "攻撃時に確率60%で「駆動解除／遅延極小」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 3
+    }
+  },
+  {
+    "id": 114,
+    "name": "妨害4",
+    "type": "MIRAGE",
+    "group": [],
+    "rank": "2",
+    "description": "攻撃時に確率75%で「駆動解除／遅延極小」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 4
+    }
+  },
+  {
+    "id": 115,
+    "name": "銀耀珠",
+    "type": "MIRAGE",
+    "group": [],
+    "rank": "3",
+    "description": "STR+75 攻撃時に確率80%で「駆動解除／遅延極小」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 5
+    }
+  },
+  {
+    "id": 116,
+    "name": "真・銀耀珠",
+    "type": "MIRAGE",
+    "group": [],
+    "rank": "3",
+    "description": "STR+90 攻撃時に確率90%で「駆動解除／遅延極小」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 5
+    }
+  },
+  {
+    "id": 117,
+    "name": "EP1",
+    "type": "MIRAGE",
+    "group": [],
+    "rank": "1",
+    "description": "最大EP25%アップ",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 1,
+      "MIRAGE": 1
+    }
+  },
+  {
+    "id": 118,
+    "name": "EP2",
+    "type": "MIRAGE",
+    "group": [],
+    "rank": "1",
+    "description": "最大EP30%アップ",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 1,
+      "SKY": 1,
+      "MIRAGE": 2
+    }
+  },
+  {
+    "id": 119,
+    "name": "EP3",
+    "type": "MIRAGE",
+    "group": [],
+    "rank": "2",
+    "description": "最大EP35%アップ",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 1,
+      "SKY": 2,
+      "MIRAGE": 3
+    }
+  },
+  {
+    "id": 120,
+    "name": "EP4",
+    "type": "MIRAGE",
+    "group": [],
+    "rank": "2",
+    "description": "最大EP40%アップ",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 2,
+      "SKY": 2,
+      "MIRAGE": 4
+    }
+  },
+  {
+    "id": 121,
+    "name": "賢王珠",
+    "type": "MIRAGE",
+    "group": [],
+    "rank": "3",
+    "description": "最大EP45%アップ",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 2,
+      "SKY": 3,
+      "MIRAGE": 5
+    }
+  },
+  {
+    "id": 122,
+    "name": "真・賢王珠",
+    "type": "MIRAGE",
+    "group": [],
+    "rank": "3",
+    "description": "SPD+6 最大EP60%アップ",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 2,
+      "SKY": 3,
+      "MIRAGE": 5
+    }
+  },
+  {
+    "id": 123,
+    "name": "混沌の刃",
+    "type": "MIRAGE",
+    "group": [],
+    "rank": "1",
+    "description": "STR+25 通常攻撃・クラフト時に確率15%で「混乱」",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 3
+    }
+  },
+  {
+    "id": 124,
+    "name": "混沌の理",
+    "type": "MIRAGE",
+    "group": [],
+    "rank": "2",
+    "description": "SPD+7 「混乱」状態の敵に与えるダメージ+50%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 5
+    }
+  },
+  {
+    "id": 125,
+    "name": "白銀の盾",
+    "type": "MIRAGE",
+    "group": [],
+    "rank": "1",
+    "description": "DEF・ADF+50 ピンチ時に4ターンATS↑",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 2,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 3
+    }
+  },
+  {
+    "id": 126,
+    "name": "陽炎",
+    "type": "MIRAGE",
+    "group": [],
+    "rank": "2",
+    "description": "フィールドおよびコマンドバトル中、敵から狙われにくくなる",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 4,
+      "SKY": 4,
+      "MIRAGE": 4
+    }
+  },
+  {
+    "id": 127,
+    "name": "幻舞",
+    "type": "MIRAGE",
+    "group": [],
+    "rank": "2",
+    "description": "SPD+9 アーツ詠唱中、回避率+100%",
+    "point": {
+      "EARTH": 5,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 5,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 5
+    }
+  },
+  {
+    "id": 128,
+    "name": "葉隠",
+    "type": "MIRAGE",
+    "group": [],
+    "rank": "2",
+    "description": "命中率+100% 必殺率+10% 回避率・魔法回避率+25%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 5,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 5
+    }
+  }
+]

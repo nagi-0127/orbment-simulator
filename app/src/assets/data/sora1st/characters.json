@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "name": "エステル",
+    "slots": [
+      {
+        "line": 0,
+        "no": 0,
+        "type": null
+      },
+      {
+        "line": 1,
+        "no": 1,
+        "type": null
+      },
+      {
+        "line": 1,
+        "no": 2,
+        "type": null
+      },
+      {
+        "line": 1,
+        "no": 3,
+        "type": null
+      },
+      {
+        "line": 2,
+        "no": 1,
+        "type": null
+      },
+      {
+        "line": 2,
+        "no": 2,
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "ヨシュア",
+    "slots": [
+      {
+        "line": 0,
+        "no": 0,
+        "type": "TIME"
+      },
+      {
+        "line": 1,
+        "no": 1,
+        "type": null
+      },
+      {
+        "line": 1,
+        "no": 2,
+        "type": null
+      },
+      {
+        "line": 1,
+        "no": 3,
+        "type": "TIME"
+      },
+      {
+        "line": 1,
+        "no": 4,
+        "type": null
+      },
+      {
+        "line": 2,
+        "no": 1,
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "シェラザード",
+    "slots": [
+      {
+        "line": 0,
+        "no": 0,
+        "type": "WIND"
+      },
+      {
+        "line": 1,
+        "no": 1,
+        "type": null
+      },
+      {
+        "line": 2,
+        "no": 1,
+        "type": null
+      },
+      {
+        "line": 2,
+        "no": 2,
+        "type": "WIND"
+      },
+      {
+        "line": 2,
+        "no": 3,
+        "type": null
+      },
+      {
+        "line": 2,
+        "no": 4,
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "オリビエ",
+    "slots": [
+      {
+        "line": 0,
+        "no": 0,
+        "type": "MIRAGE"
+      },
+      {
+        "line": 1,
+        "no": 1,
+        "type": null
+      },
+      {
+        "line": 1,
+        "no": 2,
+        "type": null
+      },
+      {
+        "line": 1,
+        "no": 3,
+        "type": null
+      },
+      {
+        "line": 1,
+        "no": 4,
+        "type": null
+      },
+      {
+        "line": 1,
+        "no": 5,
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "クローゼ",
+    "slots": [
+      {
+        "line": 0,
+        "no": 0,
+        "type": "WATER"
+      },
+      {
+        "line": 1,
+        "no": 1,
+        "type": null
+      },
+      {
+        "line": 1,
+        "no": 2,
+        "type": null
+      },
+      {
+        "line": 1,
+        "no": 3,
+        "type": "WATER"
+      },
+      {
+        "line": 1,
+        "no": 4,
+        "type": null
+      },
+      {
+        "line": 1,
+        "no": 5,
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "アガット",
+    "slots": [
+      {
+        "line": 0,
+        "no": 0,
+        "type": "FIRE"
+      },
+      {
+        "line": 1,
+        "no": 1,
+        "type": null
+      },
+      {
+        "line": 1,
+        "no": 2,
+        "type": null
+      },
+      {
+        "line": 2,
+        "no": 1,
+        "type": null
+      },
+      {
+        "line": 3,
+        "no": 1,
+        "type": "FIRE"
+      },
+      {
+        "line": 3,
+        "no": 2,
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "ティータ",
+    "slots": [
+      {
+        "line": 0,
+        "no": 0,
+        "type": "SKY"
+      },
+      {
+        "line": 1,
+        "no": 1,
+        "type": null
+      },
+      {
+        "line": 2,
+        "no": 1,
+        "type": null
+      },
+      {
+        "line": 2,
+        "no": 2,
+        "type": "SKY"
+      },
+      {
+        "line": 2,
+        "no": 3,
+        "type": null
+      },
+      {
+        "line": 3,
+        "no": 1,
+        "type": null
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "ジン",
+    "slots": [
+      {
+        "line": 0,
+        "no": 0,
+        "type": "EARTH"
+      },
+      {
+        "line": 1,
+        "no": 1,
+        "type": null
+      },
+      {
+        "line": 1,
+        "no": 2,
+        "type": null
+      },
+      {
+        "line": 2,
+        "no": 1,
+        "type": null
+      },
+      {
+        "line": 3,
+        "no": 1,
+        "type": null
+      },
+      {
+        "line": 4,
+        "no": 1,
+        "type": "EARTH"
+      }
+    ]
+  }
+]
