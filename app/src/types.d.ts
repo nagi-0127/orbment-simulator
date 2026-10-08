@@ -48,3 +48,23 @@ type Character = {
   name: string;
   orbment: Orbment;
 }
+
+type SlotSora = {
+  line: number;
+  no: number;
+  type: Types | null;
+}
+
+type CharacterSora = {
+  id: number;
+  name: string;
+  slots: SlotSora[]
+}
+
+/** 【空】同系統クオーツのグループ */
+type QuartzGroupSora = 'DEF' | 'STUN' | 'ATS' | 'HP' | 'STR' | 'CRT' | 'ADF' | 'ESC' | 'SPD' | 'INC' | 'HIT' | 'SAVEP' | 'JAM' | 'EP';
+
+type QuartzSora = BaseSkillQuarz & {
+  type: Types;
+  group: QuartzGroupSora[];
+}

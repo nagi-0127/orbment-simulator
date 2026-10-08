@@ -3,7 +3,7 @@
     "id": 1,
     "name": "防御1",
     "type": "EARTH",
-    "group": [],
+    "group": ["DEF"],
     "rank": "1",
     "description": "DEF+25%",
     "point": {
@@ -20,7 +20,7 @@
     "id": 2,
     "name": "防御2",
     "type": "EARTH",
-    "group": [],
+    "group": ["DEF"],
     "rank": "1",
     "description": "DEF+30%",
     "point": {
@@ -37,7 +37,7 @@
     "id": 3,
     "name": "防御3",
     "type": "EARTH",
-    "group": [],
+    "group": ["DEF"],
     "rank": "2",
     "description": "DEF+35%",
     "point": {
@@ -54,7 +54,7 @@
     "id": 4,
     "name": "防御4",
     "type": "EARTH",
-    "group": [],
+    "group": ["DEF"],
     "rank": "2",
     "description": "DEF+40%",
     "point": {
@@ -71,7 +71,7 @@
     "id": 5,
     "name": "琥耀珠",
     "type": "EARTH",
-    "group": [],
+    "group": ["DEF"],
     "rank": "3",
     "description": "DEF+45%",
     "point": {
@@ -88,7 +88,7 @@
     "id": 6,
     "name": "真・琥耀珠",
     "type": "EARTH",
-    "group": [],
+    "group": ["DEF"],
     "rank": "3",
     "description": "SPD+3 DEF+60%",
     "point": {
@@ -105,7 +105,7 @@
     "id": 7,
     "name": "破壊1",
     "type": "EARTH",
-    "group": [],
+    "group": ["STUN"],
     "rank": "1",
     "description": "STR+15 与スタン値+40%",
     "point": {
@@ -122,7 +122,7 @@
     "id": 8,
     "name": "破壊2",
     "type": "EARTH",
-    "group": [],
+    "group": ["STUN"],
     "rank": "1",
     "description": "STR+30 与スタン値+50%",
     "point": {
@@ -139,7 +139,7 @@
     "id": 9,
     "name": "破壊3",
     "type": "EARTH",
-    "group": [],
+    "group": ["STUN"],
     "rank": "2",
     "description": "STR+45 与スタン値+60%",
     "point": {
@@ -156,7 +156,7 @@
     "id": 10,
     "name": "破壊4",
     "type": "EARTH",
-    "group": [],
+    "group": ["STUN"],
     "rank": "2",
     "description": "STR+60 与スタン値+70%",
     "point": {
@@ -173,7 +173,7 @@
     "id": 11,
     "name": "羅漢珠",
     "type": "EARTH",
-    "group": [],
+    "group": ["STUN"],
     "rank": "3",
     "description": "STR+75 与スタン値+80%",
     "point": {
@@ -190,7 +190,7 @@
     "id": 12,
     "name": "真・羅漢珠",
     "type": "EARTH",
-    "group": [],
+    "group": ["STUN"],
     "rank": "3",
     "description": "STR+90 SPD+3 与スタン値+90%",
     "point": {
@@ -326,7 +326,7 @@
     "id": 20,
     "name": "精神1",
     "type": "WATER",
-    "group": [],
+    "group": ["ATS"],
     "rank": "1",
     "description": "ATS+15%",
     "point": {
@@ -343,7 +343,7 @@
     "id": 21,
     "name": "精神2",
     "type": "WATER",
-    "group": [],
+    "group": ["ATS"],
     "rank": "1",
     "description": "ATS+20%",
     "point": {
@@ -360,7 +360,7 @@
     "id": 22,
     "name": "精神3",
     "type": "WATER",
-    "group": [],
+    "group": ["ATS"],
     "rank": "2",
     "description": "ATS+25%",
     "point": {
@@ -377,7 +377,7 @@
     "id": 23,
     "name": "精神4",
     "type": "WATER",
-    "group": [],
+    "group": ["ATS"],
     "rank": "2",
     "description": "ATS+30%",
     "point": {
@@ -394,7 +394,7 @@
     "id": 24,
     "name": "蒼耀珠",
     "type": "WATER",
-    "group": [],
+    "group": ["ATS"],
     "rank": "3",
     "description": "ATS+35%",
     "point": {
@@ -411,7 +411,7 @@
     "id": 25,
     "name": "真・蒼耀珠",
     "type": "WATER",
-    "group": [],
+    "group": ["ATS"],
     "rank": "3",
     "description": "SPD+3 ATS+50%",
     "point": {
@@ -428,7 +428,7 @@
     "id": 26,
     "name": "HP1",
     "type": "WATER",
-    "group": [],
+    "group": ["HP"],
     "rank": "1",
     "description": "最大HP25%アップ",
     "point": {
@@ -445,7 +445,7 @@
     "id": 27,
     "name": "HP2",
     "type": "WATER",
-    "group": [],
+    "group": ["HP"],
     "rank": "1",
     "description": "最大HP30%アップ",
     "point": {
@@ -462,7 +462,7 @@
     "id": 28,
     "name": "HP3",
     "type": "WATER",
-    "group": [],
+    "group": ["HP"],
     "rank": "2",
     "description": "最大HP35%アップ",
     "point": {
@@ -479,7 +479,7 @@
     "id": 29,
     "name": "HP4",
     "type": "WATER",
-    "group": [],
+    "group": ["HP"],
     "rank": "2",
     "description": "最大HP40%アップ",
     "point": {
@@ -496,7 +496,7 @@
     "id": 30,
     "name": "弁天珠",
     "type": "WATER",
-    "group": [],
+    "group": ["HP"],
     "rank": "3",
     "description": "最大HP45%アップ",
     "point": {
@@ -513,7 +513,7 @@
     "id": 31,
     "name": "真・弁天珠",
     "type": "WATER",
-    "group": [],
+    "group": ["HP"],
     "rank": "3",
     "description": "最大HP60%アップ",
     "point": {
@@ -632,7 +632,7 @@
     "id": 38,
     "name": "攻撃1",
     "type": "FIRE",
-    "group": [],
+    "group": ["STR"],
     "rank": "1",
     "description": "STR+15% DEF-3%",
     "point": {
@@ -649,7 +649,7 @@
     "id": 39,
     "name": "攻撃2",
     "type": "FIRE",
-    "group": [],
+    "group": ["STR"],
     "rank": "1",
     "description": "STR+20% DEF-6%",
     "point": {
@@ -666,7 +666,7 @@
     "id": 40,
     "name": "攻撃3",
     "type": "FIRE",
-    "group": [],
+    "group": ["STR"],
     "rank": "2",
     "description": "STR+25% DEF-9%",
     "point": {
@@ -683,7 +683,7 @@
     "id": 41,
     "name": "攻撃4",
     "type": "FIRE",
-    "group": [],
+    "group": ["STR"],
     "rank": "2",
     "description": "STR+30% DEF-12%",
     "point": {
@@ -700,7 +700,7 @@
     "id": 42,
     "name": "紅耀珠",
     "type": "FIRE",
-    "group": [],
+    "group": ["STR"],
     "rank": "3",
     "description": "STR+35% DEF-15%",
     "point": {
@@ -717,7 +717,7 @@
     "id": 43,
     "name": "真・紅耀珠",
     "type": "FIRE",
-    "group": [],
+    "group": ["STR"],
     "rank": "3",
     "description": "SPD+3 STR+50% DEF-15%",
     "point": {
@@ -734,7 +734,7 @@
     "id": 44,
     "name": "必殺1",
     "type": "FIRE",
-    "group": [],
+    "group": ["CRT"],
     "rank": "1",
     "description": "必殺率+3%",
     "point": {
@@ -751,7 +751,7 @@
     "id": 45,
     "name": "必殺2",
     "type": "FIRE",
-    "group": [],
+    "group": ["CRT"],
     "rank": "1",
     "description": "必殺率+5%",
     "point": {
@@ -768,7 +768,7 @@
     "id": 46,
     "name": "必殺3",
     "type": "FIRE",
-    "group": [],
+    "group": ["CRT"],
     "rank": "2",
     "description": "必殺率+7%",
     "point": {
@@ -785,7 +785,7 @@
     "id": 47,
     "name": "必殺4",
     "type": "FIRE",
-    "group": [],
+    "group": ["CRT"],
     "rank": "2",
     "description": "SPD+3 必殺率+9%",
     "point": {
@@ -802,7 +802,7 @@
     "id": 48,
     "name": "武神珠",
     "type": "FIRE",
-    "group": [],
+    "group": ["CRT"],
     "rank": "3",
     "description": "SPD+6 必殺率+12%",
     "point": {
@@ -819,7 +819,7 @@
     "id": 49,
     "name": "真・武神珠",
     "type": "FIRE",
-    "group": [],
+    "group": ["CRT"],
     "rank": "3",
     "description": "SPD+9 必殺率+15%",
     "point": {
@@ -955,7 +955,7 @@
     "id": 57,
     "name": "魔防1",
     "type": "WIND",
-    "group": [],
+    "group": ["ADF"],
     "rank": "1",
     "description": "魔法回避率+3% ADF+25%",
     "point": {
@@ -972,7 +972,7 @@
     "id": 58,
     "name": "魔防2",
     "type": "WIND",
-    "group": [],
+    "group": ["ADF"],
     "rank": "1",
     "description": "魔法回避率+5% ADF+30%",
     "point": {
@@ -989,7 +989,7 @@
     "id": 59,
     "name": "魔防3",
     "type": "WIND",
-    "group": [],
+    "group": ["ADF"],
     "rank": "2",
     "description": "魔法回避率+7% ADF+35%",
     "point": {
@@ -1006,7 +1006,7 @@
     "id": 60,
     "name": "魔防4",
     "type": "WIND",
-    "group": [],
+    "group": ["ADF"],
     "rank": "2",
     "description": "SPD+3 魔法回避率+9% ADF+40%",
     "point": {
@@ -1023,7 +1023,7 @@
     "id": 61,
     "name": "翠耀珠",
     "type": "WIND",
-    "group": [],
+    "group": ["ADF"],
     "rank": "3",
     "description": "SPD+6 魔法回避率+12% ADF+45%",
     "point": {
@@ -1040,7 +1040,7 @@
     "id": 62,
     "name": "真・翠耀珠",
     "type": "WIND",
-    "group": [],
+    "group": ["ADF"],
     "rank": "3",
     "description": "SPD+9 魔法回避率+15% ADF+60%",
     "point": {
@@ -1057,7 +1057,7 @@
     "id": 63,
     "name": "回避1",
     "type": "WIND",
-    "group": [],
+    "group": ["ESC"],
     "rank": "1",
     "description": "回避率+3%",
     "point": {
@@ -1074,7 +1074,7 @@
     "id": 64,
     "name": "回避2",
     "type": "WIND",
-    "group": [],
+    "group": ["ESC"],
     "rank": "1",
     "description": "回避率+5%",
     "point": {
@@ -1091,7 +1091,7 @@
     "id": 65,
     "name": "回避3",
     "type": "WIND",
-    "group": [],
+    "group": ["ESC"],
     "rank": "2",
     "description": "回避率+7%",
     "point": {
@@ -1108,7 +1108,7 @@
     "id": 66,
     "name": "回避4",
     "type": "WIND",
-    "group": [],
+    "group": ["ESC"],
     "rank": "2",
     "description": "SPD+3 回避率+9%",
     "point": {
@@ -1125,7 +1125,7 @@
     "id": 67,
     "name": "雷公珠",
     "type": "WIND",
-    "group": [],
+    "group": ["ESC"],
     "rank": "3",
     "description": "SPD+6 回避率+12%",
     "point": {
@@ -1142,7 +1142,7 @@
     "id": 68,
     "name": "真・雷公珠",
     "type": "WIND",
-    "group": [],
+    "group": ["ESC"],
     "rank": "3",
     "description": "SPD+9 回避率+15%",
     "point": {
@@ -1261,7 +1261,7 @@
     "id": 75,
     "name": "行動力1",
     "type": "TIME",
-    "group": [],
+    "group": ["SPD"],
     "rank": "1",
     "description": "SPD+15%",
     "point": {
@@ -1278,7 +1278,7 @@
     "id": 76,
     "name": "行動力2",
     "type": "TIME",
-    "group": [],
+    "group": ["SPD"],
     "rank": "1",
     "description": "SPD+20%",
     "point": {
@@ -1295,7 +1295,7 @@
     "id": 77,
     "name": "行動力3",
     "type": "TIME",
-    "group": [],
+    "group": ["SPD"],
     "rank": "2",
     "description": "SPD+25%",
     "point": {
@@ -1312,7 +1312,7 @@
     "id": 78,
     "name": "行動力4",
     "type": "TIME",
-    "group": [],
+    "group": ["SPD"],
     "rank": "2",
     "description": "SPD+30%",
     "point": {
@@ -1329,7 +1329,7 @@
     "id": 79,
     "name": "黒耀珠",
     "type": "TIME",
-    "group": [],
+    "group": ["SPD"],
     "rank": "3",
     "description": "SPD+35%",
     "point": {
@@ -1346,7 +1346,7 @@
     "id": 80,
     "name": "真・黒耀珠",
     "type": "TIME",
-    "group": [],
+    "group": ["SPD"],
     "rank": "3",
     "description": "SPD+50%",
     "point": {
@@ -1363,7 +1363,7 @@
     "id": 81,
     "name": "駆動1",
     "type": "TIME",
-    "group": [],
+    "group": ["INC"],
     "rank": "1",
     "description": "ATS+15 アーツ駆動時間0.8倍",
     "point": {
@@ -1380,7 +1380,7 @@
     "id": 82,
     "name": "駆動2",
     "type": "TIME",
-    "group": [],
+    "group": ["INC"],
     "rank": "1",
     "description": "ATS+30 アーツ駆動時間0.7倍",
     "point": {
@@ -1397,7 +1397,7 @@
     "id": 83,
     "name": "駆動3",
     "type": "TIME",
-    "group": [],
+    "group": ["INC"],
     "rank": "2",
     "description": "ATS+45 アーツ駆動時間0.6倍",
     "point": {
@@ -1414,7 +1414,7 @@
     "id": 84,
     "name": "駆動4",
     "type": "TIME",
-    "group": [],
+    "group": ["INC"],
     "rank": "2",
     "description": "ATS+60 アーツ駆動時間0.5倍",
     "point": {
@@ -1431,7 +1431,7 @@
     "id": 85,
     "name": "冥皇珠",
     "type": "TIME",
-    "group": [],
+    "group": ["INC"],
     "rank": "3",
     "description": "ATS+75 アーツ駆動時間0.4倍",
     "point": {
@@ -1448,7 +1448,7 @@
     "id": 86,
     "name": "真・冥皇珠",
     "type": "TIME",
-    "group": [],
+    "group": ["INC"],
     "rank": "3",
     "description": "ATS+90 アーツ駆動時間0.3倍",
     "point": {
@@ -1567,7 +1567,7 @@
     "id": 93,
     "name": "命中1",
     "type": "SKY",
-    "group": [],
+    "group": ["HIT"],
     "rank": "1",
     "description": "STR+15 命中率+60%",
     "point": {
@@ -1584,7 +1584,7 @@
     "id": 94,
     "name": "命中2",
     "type": "SKY",
-    "group": [],
+    "group": ["HIT"],
     "rank": "1",
     "description": "STR+30 命中率+75%",
     "point": {
@@ -1601,7 +1601,7 @@
     "id": 95,
     "name": "命中3",
     "type": "SKY",
-    "group": [],
+    "group": ["HIT"],
     "rank": "2",
     "description": "STR+45 命中率+90%",
     "point": {
@@ -1618,7 +1618,7 @@
     "id": 96,
     "name": "命中4",
     "type": "SKY",
-    "group": [],
+    "group": ["HIT"],
     "rank": "2",
     "description": "STR+60 命中率+100%",
     "point": {
@@ -1635,7 +1635,7 @@
     "id": 97,
     "name": "金耀珠",
     "type": "SKY",
-    "group": [],
+    "group": ["HIT"],
     "rank": "3",
     "description": "STR+75 命中率+150%",
     "point": {
@@ -1652,7 +1652,7 @@
     "id": 98,
     "name": "真・金耀珠",
     "type": "SKY",
-    "group": [],
+    "group": ["HIT"],
     "rank": "3",
     "description": "STR+90 SPD+6 命中率+200%",
     "point": {
@@ -1669,7 +1669,7 @@
     "id": 99,
     "name": "省EP1",
     "type": "SKY",
-    "group": [],
+    "group": ["SAVEP"],
     "rank": "1",
     "description": "消費EP0.85倍",
     "point": {
@@ -1686,7 +1686,7 @@
     "id": 100,
     "name": "省EP2",
     "type": "SKY",
-    "group": [],
+    "group": ["SAVEP"],
     "rank": "1",
     "description": "消費EP0.8倍",
     "point": {
@@ -1703,7 +1703,7 @@
     "id": 101,
     "name": "省EP3",
     "type": "SKY",
-    "group": [],
+    "group": ["SAVEP"],
     "rank": "2",
     "description": "消費EP0.75倍",
     "point": {
@@ -1720,7 +1720,7 @@
     "id": 102,
     "name": "省EP4",
     "type": "SKY",
-    "group": [],
+    "group": ["SAVEP"],
     "rank": "2",
     "description": "消費EP0.7倍",
     "point": {
@@ -1737,7 +1737,7 @@
     "id": 103,
     "name": "天帝珠",
     "type": "SKY",
-    "group": [],
+    "group": ["SAVEP"],
     "rank": "3",
     "description": "消費EP0.65倍",
     "point": {
@@ -1754,7 +1754,7 @@
     "id": 104,
     "name": "真・天帝珠",
     "type": "SKY",
-    "group": [],
+    "group": ["SAVEP"],
     "rank": "3",
     "description": "消費EP0.5倍",
     "point": {
@@ -1873,7 +1873,7 @@
     "id": 111,
     "name": "妨害1",
     "type": "MIRAGE",
-    "group": [],
+    "group": ["JAM"],
     "rank": "1",
     "description": "攻撃時に確率30%で「駆動解除／遅延極小」",
     "point": {
@@ -1890,7 +1890,7 @@
     "id": 112,
     "name": "妨害2",
     "type": "MIRAGE",
-    "group": [],
+    "group": ["JAM"],
     "rank": "1",
     "description": "攻撃時に確率45%で「駆動解除／遅延極小」",
     "point": {
@@ -1907,7 +1907,7 @@
     "id": 113,
     "name": "妨害3",
     "type": "MIRAGE",
-    "group": [],
+    "group": ["JAM"],
     "rank": "2",
     "description": "攻撃時に確率60%で「駆動解除／遅延極小」",
     "point": {
@@ -1924,7 +1924,7 @@
     "id": 114,
     "name": "妨害4",
     "type": "MIRAGE",
-    "group": [],
+    "group": ["JAM"],
     "rank": "2",
     "description": "攻撃時に確率75%で「駆動解除／遅延極小」",
     "point": {
@@ -1941,7 +1941,7 @@
     "id": 115,
     "name": "銀耀珠",
     "type": "MIRAGE",
-    "group": [],
+    "group": ["JAM"],
     "rank": "3",
     "description": "STR+75 攻撃時に確率80%で「駆動解除／遅延極小」",
     "point": {
@@ -1958,7 +1958,7 @@
     "id": 116,
     "name": "真・銀耀珠",
     "type": "MIRAGE",
-    "group": [],
+    "group": ["JAM"],
     "rank": "3",
     "description": "STR+90 攻撃時に確率90%で「駆動解除／遅延極小」",
     "point": {
@@ -1975,7 +1975,7 @@
     "id": 117,
     "name": "EP1",
     "type": "MIRAGE",
-    "group": [],
+    "group": ["EP"],
     "rank": "1",
     "description": "最大EP25%アップ",
     "point": {
@@ -1992,7 +1992,7 @@
     "id": 118,
     "name": "EP2",
     "type": "MIRAGE",
-    "group": [],
+    "group": ["EP"],
     "rank": "1",
     "description": "最大EP30%アップ",
     "point": {
@@ -2009,7 +2009,7 @@
     "id": 119,
     "name": "EP3",
     "type": "MIRAGE",
-    "group": [],
+    "group": ["EP"],
     "rank": "2",
     "description": "最大EP35%アップ",
     "point": {
@@ -2026,7 +2026,7 @@
     "id": 120,
     "name": "EP4",
     "type": "MIRAGE",
-    "group": [],
+    "group": ["EP"],
     "rank": "2",
     "description": "最大EP40%アップ",
     "point": {
@@ -2043,7 +2043,7 @@
     "id": 121,
     "name": "賢王珠",
     "type": "MIRAGE",
-    "group": [],
+    "group": ["EP"],
     "rank": "3",
     "description": "最大EP45%アップ",
     "point": {
@@ -2060,7 +2060,7 @@
     "id": 122,
     "name": "真・賢王珠",
     "type": "MIRAGE",
-    "group": [],
+    "group": ["EP"],
     "rank": "3",
     "description": "SPD+6 最大EP60%アップ",
     "point": {

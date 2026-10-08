@@ -6,9 +6,9 @@
 
 <script setup lang="ts">
 const props = defineProps<{
-  quartz: BaseSkillQuarz[];
+  quartz: QuartzSora[];
   arts: BaseSkillQuarz[];
-  characters: Character[];
+  characters: CharacterSora[];
 }>();
 </script>
 
