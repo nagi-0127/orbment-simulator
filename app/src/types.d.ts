@@ -17,19 +17,26 @@ type Point = {
   MIRAGE: number;
 }
 
-interface BaseSkillQuarz {
+interface BaseQuarz {
+  id: number;
+  name: string;
+  type: Types;
+  description: string;
+  point: Point;
+}
+
+interface BaseSkill {
   id: number;
   name: string;
   description: string;
   point: Point;
 }
 
-interface Skill extends BaseSkillQuarz {
+interface Skill extends BaseSkill {
   line: Lines;
 }
 
-interface Quartz extends BaseSkillQuarz {
-  type: Types;
+interface Quartz extends BaseQuarz {
   line: Lines[];
 }
 
