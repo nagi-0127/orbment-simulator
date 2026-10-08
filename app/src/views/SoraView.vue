@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, shallowRef, watch, watchEffect } from 'vue';
 import SelectQuartz from '@/components/SelectQuartz.vue';
+import { getModel } from '@/util/soraSolver';
 
 const props = defineProps<{
   quartz: QuartzSora[];
@@ -9,8 +10,12 @@ const props = defineProps<{
 }>();
 
 const selectedQuartz = shallowRef<QuartzSora[]>([...props.quartz] as QuartzSora[])
-const selectedArts = shallowRef<BaseQuarz[]>([] as BaseQuarz[])
+// const selectedArts = shallowRef<BaseQuarz[]>([] as BaseQuarz[])
+const selectedArts = shallowRef<BaseQuarz[]>([...props.arts] as BaseQuarz[])
 const tab = ref(null)
+const onSearchClick = () => {
+  console.log(getModel(props.characters[0], selectedArts.value, selectedQuartz.value, []))
+}
 
 </script>
 
@@ -28,9 +33,9 @@ const tab = ref(null)
         <select-quartz :quartz-list="(quartz)" v-model:model-value="selectedQuartz"></select-quartz>
       </v-tabs-window-item>
     </v-tabs-window>
-    <!-- <v-container>
+    <v-container>
       <v-row>
-        <v-col cols="2">
+        <!-- <v-col cols="2">
           <v-select :items="characters" item-title="name" v-model="selectedCharacter" density="compact" hide-details
             return-object></v-select>
         </v-col>
@@ -38,13 +43,13 @@ const tab = ref(null)
           <v-select label="必須クオーツ" :items="selectedQuartz" v-model:model-value="requiredQuartz"
             :item-props="(item => { return { title: item.name, subtitle: item.description } })" density="compact"
             hide-details multiple></v-select>
-        </v-col>
+        </v-col> -->
         <v-col>
-          <v-btn @click="() => onSearchClick()" :disabled="isProcessing">Search</v-btn>
+          <v-btn @click="() => onSearchClick()">Search</v-btn>
         </v-col>
       </v-row>
     </v-container>
-    <v-container v-if="res !== null">
+    <!-- <v-container v-if="res !== null">
       <v-row dense>
         <v-col v-for="result in res" cols="12">
           <search-result :character="selectedCharacter" :skills="(skills as Skill[])" :result="result"

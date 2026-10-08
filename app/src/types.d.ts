@@ -71,7 +71,7 @@ type CharacterSora = {
 /** 【空】同系統クオーツのグループ */
 type QuartzGroupSora = 'DEF' | 'STUN' | 'ATS' | 'HP' | 'STR' | 'CRT' | 'ADF' | 'ESC' | 'SPD' | 'INC' | 'HIT' | 'SAVEP' | 'JAM' | 'EP';
 
-type QuartzSora = BaseSkillQuarz & {
+type QuartzSora = BaseQuarz & {
   type: Types;
   group: QuartzGroupSora[];
 }
