@@ -17,3 +17,5 @@ export const quartzGroupSora: {
   JAM: 'JAM',
   EP: 'EP',
 } 
+
+export const typeList: Types[] = ['EARTH', 'WATER', 'FIRE', 'WIND', 'TIME', 'SKY', 'MIRAGE']

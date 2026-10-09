@@ -1,9 +1,12 @@
-import type { Model, Constraint } from "yalps"
-import { lessEq, equalTo } from "yalps"
-import { quartzGroupSora } from "@/const/contants"
+import type { Model, Constraint, Solution } from "yalps"
+import { lessEq, equalTo, greaterEq } from "yalps"
+import { quartzGroupSora, typeList } from "@/const/contants"
 
 const SHARED_SLOT_LINE = 0
-const M = 100
+
+const variables = {};
+const binaries = [];
+
 
 /**
  * 制約条件となる必要ポイントを精査する。
@@ -12,36 +15,37 @@ const M = 100
  */
 const getConstraintsPoint = (selectedArts: BaseQuarz[]): Point[] => {
   const points: Point[] = selectedArts.map(a => a.point);
-  console.log(points)
-  const filteredPoints: Point[] = [];
 
-  points.forEach((point) => {
-    // 同一条件が抽出済みの場合スキップ
-    const idx = filteredPoints.findIndex(p => {
-      return Object.keys(point).reduce((prev, key) => {
-        return prev && (p[key as keyof Point] === point[key as keyof Point])
-      }, true)
-    })
-    if (idx > 0) return;
+  return points.filter((point, i) => {
+    const keys = Object.keys(point) as (keyof Point)[];
 
-    // 対象ポイントの中で最大の場合条件追加
-    const existsGreater = points.reduce((prev, value) => {
-      if (prev) return prev;
+    // 1. 完全重複チェック：自分より前のインデックス(j < i)に全く同じ値が存在する場合は削除
+    const isDuplicate = points.some((other, j) => {
+      if (j >= i) return false;
+      return keys.every(key => other[key] === point[key]);
+    });
+    if (isDuplicate) return false;
 
-      const existsGreater = Object.keys(point).reduce((flag, key) => {
-        return flag && (point[key as keyof Point] <= value[key as keyof Point])
-      }, true)
-      
-      return prev &&
-       existsGreater
-    }, false)
+    // 2. 完全上位チェック：自分以外の要素にすべてのキーで自分以上のものが存在するか
+    const isDominated = points.some((other, j) => {
+      if (i === j) return false;
 
-    if (!existsGreater) {
-      filteredPoints.push(point)
-    }
-  })
+      // すべてのキーで other が item 以上か
+      const isGreaterOrEqual = keys.every(key => (other[key] ?? -Infinity) >= point[key]);
 
-  return filteredPoints;
+      // 少なくとも1つのキーで other が item を厳密に上回っているか
+      const hasStrictlyBetterKey = keys.some(key => (other[key] ?? -Infinity) > point[key]);
+
+      // 同値の場合は自分より前のインデックス(j < i)を優先
+      const isStrictlyBetter = hasStrictlyBetterKey || (
+        keys.every(key => other[key] === point[key]) && j < i
+      );
+
+      return isGreaterOrEqual && isStrictlyBetter;
+    });
+
+    return !isDominated;
+  });
 }
 
 /**
@@ -51,7 +55,7 @@ const getConstraintsPoint = (selectedArts: BaseQuarz[]): Point[] => {
  * @param {QuartzSora[]} selectedQuartz
  * @param {QuartzSora[]} requiredQuartz
  */
-export const getModel = (character: CharacterSora, selectedArts: BaseQuarz[], selectedQuartz: QuartzSora[], requiredQuartz: QuartzSora[]): Model => {
+const getModel = (character: CharacterSora, selectedArts: BaseQuarz[], selectedQuartz: QuartzSora[], requiredQuartz: QuartzSora[]): Model => {
   const variables: { [key: string]: { [key: string]: any } } = {}
   const constraints: { [key: string]: Constraint } = {}
   const integers: string[] = []
@@ -59,6 +63,31 @@ export const getModel = (character: CharacterSora, selectedArts: BaseQuarz[], se
 
   // 変数、制約の前処理
   const groupKeys = Object.keys(quartzGroupSora) as QuartzGroupSora[];
+  // 制約条件のパレートフロント抽出
+  const targetPoints: Point[] = getConstraintsPoint(selectedArts);
+  // 制約条件数
+  const numConstraintPoint: number = targetPoints.length;
+  // ライン数
+  const numLines: number = Math.max(...character.slots.map(slot => slot.line));
+
+  groupKeys.forEach(key => {
+    // 同系統の最大数は1の制約
+    constraints[`GROUP_${key}`] = lessEq(1);
+  });
+
+  // 各条件を最低1つのラインが満たす制約 (>= 1)
+  for (let i = 0; i < numConstraintPoint; i++) {
+    constraints[`cond_${i}_covered`] = greaterEq(1);
+  }
+
+  // ラインが各条件を満たすための各次元の評価式 (>= 0)
+  for (let i = 1; i <= numLines; i++) {
+    for (let j = 0; j < numConstraintPoint; j++) {
+      typeList.forEach((key) => {
+        constraints[`${key}_L${i}_C${j}`] = greaterEq(0)
+      })
+    }
+  }
 
   const quartzList: ({
     [key in string]: string | number | Point;
@@ -85,13 +114,8 @@ export const getModel = (character: CharacterSora, selectedArts: BaseQuarz[], se
     }
   });
 
-  groupKeys.forEach(key => {
-    // 同グループの最大数は1の制約
-    constraints[`GROUP_${key}`] = lessEq(1);
-  });
-
-  // スロットごとにセット可能なクオーツを全て変数に設定する。
-  const numLines = Math.max(...character.slots.map(slot => slot.line));
+  // スロットごとにセット可能なクオーツを全て
+  // 変数に設定する。
   character.slots.forEach(slot => {
     const validQuartz = quartzList.filter(q => slot.type === null || slot.type === q.type);
     validQuartz.forEach(quartz => {
@@ -99,11 +123,14 @@ export const getModel = (character: CharacterSora, selectedArts: BaseQuarz[], se
       const linePoints: {
         [key in string]: string | number;
       } = {};
-      for (let i = 0; i < numLines; i++) {
-        Object.entries(quartz.point).forEach(([key, point]) => {
-          // line番号が同じ、または 0 (共通)の場合にポイントセット。
-          linePoints[`${key}_${i}`] = ((i + 1) === slot.line || slot.line === SHARED_SLOT_LINE) ? point : 0;
-        })
+      // ライン/制約条件ごとに変数セット
+      for (let i = 1; i <= numLines; i++) {
+        for (let j = 0; j < numConstraintPoint; j++) {
+          Object.entries(quartz.point as Point).forEach(([key, point]) => {
+            // line番号が同じ、または 0 (共通)のフィールドにポイントセット。
+            linePoints[`${key}_L${i}_C${j}`] = (i === slot.line || slot.line === SHARED_SLOT_LINE) ? point : 0;
+          })
+        }
       }
       const variable = { ...quartz, ...linePoints };
 
@@ -126,9 +153,24 @@ export const getModel = (character: CharacterSora, selectedArts: BaseQuarz[], se
     constraints[slotKey] = lessEq(1);
   });
 
-  const targetPoints = getConstraintsPoint(selectedArts);
+  // ラインごとに必要ポイントを満たしているかの条件設定
+  for (let i = 1; i <= numLines; i++) {
+    targetPoints.forEach((point, index) => {
+      const varName = `L${i}_${index}`;
+      binaries.push(varName);
 
-  console.log(targetPoints)
+      const v = {
+        [`cond_${index}_covered`]: 1,
+        ...Object.fromEntries(
+          Object.entries(point).map(([key, val]) => {
+            return [`${key}_L${i}_C${index}`, -val];
+          })
+        )
+      }
+
+      variables[varName] = v;
+    })
+  }
 
   return {
     variables,
@@ -136,4 +178,79 @@ export const getModel = (character: CharacterSora, selectedArts: BaseQuarz[], se
     integers,
     binaries,
   }
+}
+
+const parseSolution = (solution: Solution, character: CharacterSora, selectedQuartz: QuartzSora[]) => {
+  const quartzVars = solution.variables.filter(([val]) => !val.startsWith('L'));
+  const ret: (SlotSora & {
+    quartz: QuartzSora | null
+  })[] = quartzVars.map(([val]) => {
+    const [line, no, qid] = val.split('_');
+    const slot: SlotSora | undefined = character.slots.find(s => s.line === parseInt(line) && s.no === parseInt(no))
+    if (!slot) return;
+    return {
+      ...slot,
+      quartz: selectedQuartz.find(q => q.id === parseInt(qid)) ?? null,
+    }
+  }).filter(v => !!v)
+  return ret
+}
+
+/**
+ * 
+ * @param character 
+ * @param selectedArts 
+ * @param selectedQuartz 
+ * @param requiredQuartz 
+ */
+export const searchQuartz = (character: CharacterSora, selectedArts: BaseQuarz[], selectedQuartz: QuartzSora[], requiredQuartz: QuartzSora[], n: number = 5) => {
+  let model = getModel(character, selectedArts, selectedQuartz, requiredQuartz)
+  console.log(model)
+  const worker: Worker = new Worker(new URL('@/util/solverWorker.ts', import.meta.url), { type: 'module' })
+
+  const stream = new ReadableStream<(SlotSora & {
+    quartz: QuartzSora | null
+  })[]>({
+    start(controller) {
+      let counter = 0;
+      worker.onmessage = (ev: MessageEvent<Solution>) => {
+        console.log(ev.data)
+        if (ev.data.status === 'optimal') {
+          controller.enqueue(parseSolution(ev.data, character, selectedQuartz))
+          if (++counter >= n) {
+            worker.terminate();
+            controller.close();
+            return
+          }
+
+          // 同じ組み合わせを除外する制約を追加
+          const idList = ev.data.variables.filter(([val]) => !val.startsWith('L')).map(([k]) => k);
+          const variables = { ...model.variables } as { [x: string]: { [name: string]: number } }
+          for (const varName in variables) {
+            variables[varName][`pattern${counter}`] = idList.includes(varName) ? 1 : 0
+          }
+          const constraints = { ...model.constraints } as { [x: string]: { [name: string]: number } }
+          constraints[`pattern${counter}`] = { max: idList.length - 1 }
+
+          model = {
+            ...model,
+            variables,
+            constraints
+          }
+          // 再検索
+          worker.postMessage(model)
+        } else {
+          worker.terminate();
+          controller.close();
+          return
+        }
+      }
+      worker.postMessage(model);
+    },
+    cancel() {
+      worker.terminate()
+    }
+  });
+
+  return stream;
 }
