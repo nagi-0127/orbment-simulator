@@ -11,7 +11,7 @@
   </v-container>
 </template>
 
-<script setup lang="ts" generic="T extends BaseSkillQuarz">
+<script setup lang="ts" generic="T extends BaseQuarz">
 const { title, items } = defineProps<{
   title: string;
   items: T[];

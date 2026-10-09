@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-expansion-panels multiple v-model="expanded">
-      <v-expansion-panel v-for="type in typeList" :key="type" :value="type">
+      <v-expansion-panel v-for="type in types" :key="type" :value="type">
         <v-expansion-panel-title>
           <template v-if="type == 'EARTH'">地</template>
           <template v-if="type == 'WATER'">水</template>
@@ -19,8 +19,8 @@
   </v-container>
 </template>
 
-<script setup lang="ts" generic="T extends Quartz">
-import { ref } from 'vue';
+<script setup lang="ts" generic="T extends BaseQuarz">
+import { ref, computed } from 'vue';
 import SelectItem from './SelectItem.vue';
 const { quartzList } = defineProps<{
   quartzList: T[]
@@ -31,6 +31,11 @@ const selected = defineModel<T[]>({
 })
 
 const typeList: Types[] = ['EARTH', 'WATER', 'FIRE', 'WIND', 'TIME', 'SKY', 'MIRAGE']
+const types = computed<Types[]>(() => {
+  return typeList.filter(tp => {
+    return quartzList.filter(q => q.type == tp).length > 0
+  })
+})
 const expanded = ref<Types[]>(['EARTH', 'WATER', 'FIRE', 'WIND', 'TIME', 'SKY', 'MIRAGE'])
 </script>
 

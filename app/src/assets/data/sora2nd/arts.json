@@ -1,0 +1,1122 @@
+[
+  {
+    "id": 1,
+    "name": "ストーンハンマー",
+    "type": "EARTH",
+    "EP": 20,
+    "description": "【魔法攻撃C+／単体】石化10%",
+    "point": {
+      "EARTH": 1,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 2,
+    "name": "アースランス",
+    "type": "EARTH",
+    "EP": 90,
+    "description": "【魔法攻撃C+／扇M】石化20%",
+    "point": {
+      "EARTH": 2,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 3,
+    "name": "ペトロブレス",
+    "type": "EARTH",
+    "EP": 150,
+    "description": "【魔法攻撃B／扇L】毒・石化30%",
+    "point": {
+      "EARTH": 3,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 2,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 4,
+    "name": "ストーンインパクト",
+    "type": "EARTH",
+    "EP": 210,
+    "description": "【魔法攻撃A／地点・円M】スタン大",
+    "point": {
+      "EARTH": 4,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 5,
+    "name": "ペトロクラウド",
+    "type": "EARTH",
+    "EP": 270,
+    "description": "【魔法攻撃A+／扇LL】毒・石化50%",
+    "point": {
+      "EARTH": 5,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 3,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 6,
+    "name": "タイタニックロア",
+    "type": "EARTH",
+    "EP": 360,
+    "description": "【魔法攻撃S／全体】DEF↓",
+    "point": {
+      "EARTH": 6,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 4,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 7,
+    "name": "アトラスハンマー",
+    "type": "EARTH",
+    "EP": 420,
+    "description": "【魔法攻撃S+／地点・円M】スタン極",
+    "point": {
+      "EARTH": 8,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 6,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 8,
+    "name": "ジオカタストロフ",
+    "type": "EARTH",
+    "EP": 540,
+    "description": "【魔法攻撃SS／全体】SPD・MOV↓↓",
+    "point": {
+      "EARTH": 9,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 7,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 7
+    }
+  },
+  {
+    "id": 9,
+    "name": "アースガード",
+    "type": "EARTH",
+    "EP": 120,
+    "description": "【補助／味方・地点・円L】シールド小",
+    "point": {
+      "EARTH": 2,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 2
+    }
+  },
+  {
+    "id": 10,
+    "name": "アースウォール",
+    "type": "EARTH",
+    "EP": 300,
+    "description": "【補助／味方・地点・円L】1回完全防御",
+    "point": {
+      "EARTH": 4,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 3,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 11,
+    "name": "ガイアシールド",
+    "type": "EARTH",
+    "EP": 480,
+    "description": "【補助／味方・地点・円L】1回物理反射／シールド中",
+    "point": {
+      "EARTH": 9,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 7,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 12,
+    "name": "クレスト",
+    "type": "EARTH",
+    "EP": 30,
+    "description": "【補助／味方・単体】5ターンDEF・ADF↑／HP徐々回復／能力低下解除",
+    "point": {
+      "EARTH": 1,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 1,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 13,
+    "name": "ラ・クレスト",
+    "type": "EARTH",
+    "EP": 120,
+    "description": "【補助／味方・地点・円L】5ターンDEF・ADF↑↑／HP徐々回復／能力低下解除",
+    "point": {
+      "EARTH": 4,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 4,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 14,
+    "name": "アクアブリード",
+    "type": "WATER",
+    "EP": 20,
+    "description": "【魔法攻撃C+／単体】封魔30%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 1,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 15,
+    "name": "ブルーインパクト",
+    "type": "WATER",
+    "EP": 180,
+    "description": "【魔法攻撃A+／地点・円S】封魔60%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 3,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 16,
+    "name": "ダイヤモンドダスト",
+    "type": "WATER",
+    "EP": 360,
+    "description": "【魔法攻撃S+／地点・円M】凍結40%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 5,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 5,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 17,
+    "name": "ブルーアセンション",
+    "type": "WATER",
+    "EP": 420,
+    "description": "【魔法攻撃SS／地点・円S】封魔90%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 7,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 18,
+    "name": "コキュートス",
+    "type": "WATER",
+    "EP": 540,
+    "description": "【魔法攻撃X／直線L】凍結60%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 9,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 7,
+      "SKY": 7,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 19,
+    "name": "ティア",
+    "type": "WATER",
+    "EP": 20,
+    "description": "【回復／味方・単体】HP小回復",
+    "point": {
+      "EARTH": 0,
+      "WATER": 1,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 20,
+    "name": "ティアラ",
+    "type": "WATER",
+    "EP": 90,
+    "description": "【回復／味方・単体】HP中回復",
+    "point": {
+      "EARTH": 0,
+      "WATER": 3,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 2
+    }
+  },
+  {
+    "id": 21,
+    "name": "ティアラル",
+    "type": "WATER",
+    "EP": 150,
+    "description": "【回復／味方・単体】HP大回復",
+    "point": {
+      "EARTH": 0,
+      "WATER": 5,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 3
+    }
+  },
+  {
+    "id": 22,
+    "name": "ティア・オル",
+    "type": "WATER",
+    "EP": 240,
+    "description": "【回復／味方・単体】HP全回復",
+    "point": {
+      "EARTH": 0,
+      "WATER": 7,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 5
+    }
+  },
+  {
+    "id": 23,
+    "name": "ラ・ティア",
+    "type": "WATER",
+    "EP": 90,
+    "description": "【回復／味方・円L】HP小回復",
+    "point": {
+      "EARTH": 0,
+      "WATER": 2,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 2,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 24,
+    "name": "ラ・ティアラ",
+    "type": "WATER",
+    "EP": 180,
+    "description": "【回復／味方・円LL】HP中回復",
+    "point": {
+      "EARTH": 0,
+      "WATER": 4,
+      "FIRE": 0,
+      "WIND": 2,
+      "TIME": 0,
+      "SKY": 2,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 25,
+    "name": "ラ・ティアラル",
+    "type": "WATER",
+    "EP": 360,
+    "description": "【回復／味方・円LL】HP大回復",
+    "point": {
+      "EARTH": 0,
+      "WATER": 6,
+      "FIRE": 0,
+      "WIND": 3,
+      "TIME": 0,
+      "SKY": 3,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 26,
+    "name": "キュリア",
+    "type": "WATER",
+    "EP": 30,
+    "description": "【回復／味方・単体】HP15%回復／デバフ解除",
+    "point": {
+      "EARTH": 0,
+      "WATER": 2,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 1
+    }
+  },
+  {
+    "id": 27,
+    "name": "ラ・キュリア",
+    "type": "WATER",
+    "EP": 90,
+    "description": "【回復／味方・円LL】HP30%回復／デバフ解除",
+    "point": {
+      "EARTH": 0,
+      "WATER": 3,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 2
+    }
+  },
+  {
+    "id": 28,
+    "name": "ファイアボルト",
+    "type": "FIRE",
+    "EP": 20,
+    "description": "【魔法攻撃C+／単体】炎傷20%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 1,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 29,
+    "name": "フレアアロー",
+    "type": "FIRE",
+    "EP": 150,
+    "description": "【魔法攻撃B／直線S】炎傷30%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 2,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 30,
+    "name": "ナパームブレス",
+    "type": "FIRE",
+    "EP": 210,
+    "description": "【魔法攻撃A／円M】炎傷40%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 3,
+      "WIND": 2,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 31,
+    "name": "ファイアボルト改",
+    "type": "FIRE",
+    "EP": 270,
+    "description": "【魔法攻撃S／円S】炎傷50%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 4,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 32,
+    "name": "スパイラルフレア",
+    "type": "FIRE",
+    "EP": 360,
+    "description": "【魔法攻撃SS／円L】炎傷60%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 5,
+      "WIND": 3,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 33,
+    "name": "ボルカニックレイブ",
+    "type": "FIRE",
+    "EP": 420,
+    "description": "【魔法攻撃X／円S】炎傷90%",
+    "point": {
+      "EARTH": 4,
+      "WATER": 0,
+      "FIRE": 5,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 34,
+    "name": "メテオフォール",
+    "type": "FIRE",
+    "EP": 480,
+    "description": "【魔法攻撃X／円L】炎傷60%／石化30%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 7,
+      "WIND": 0,
+      "TIME": 5,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 35,
+    "name": "サイクロンナパーム",
+    "type": "FIRE",
+    "EP": 540,
+    "description": "【魔法攻撃X+／円S】炎傷60%／封技30%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 7,
+      "WIND": 5,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 36,
+    "name": "アークプロミネンス",
+    "type": "FIRE",
+    "EP": 600,
+    "description": "【魔法攻撃X+／全体】炎傷150%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 9,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 9
+    }
+  },
+  {
+    "id": 37,
+    "name": "フォルテ",
+    "type": "FIRE",
+    "EP": 30,
+    "description": "【補助／味方・単体】5ターンSTR↑／CP徐々上昇／能力低下解除",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 1,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 1
+    }
+  },
+  {
+    "id": 38,
+    "name": "ラ・フォルテ",
+    "type": "FIRE",
+    "EP": 120,
+    "description": "【補助／味方・地点・円L】5ターンSTR↑↑／CP徐々上昇／能力低下解除",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 4,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 4
+    }
+  },
+  {
+    "id": 39,
+    "name": "エアストライク",
+    "type": "WIND",
+    "EP": 20,
+    "description": "【魔法攻撃C+／単体】暗闇20%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 1,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 40,
+    "name": "エアリアル",
+    "type": "WIND",
+    "EP": 180,
+    "description": "【魔法攻撃B／地点・円L】暗闇40%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 3,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 41,
+    "name": "エアロストーム",
+    "type": "WIND",
+    "EP": 360,
+    "description": "【魔法攻撃S／地点・円LL】暗闇60%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 4,
+      "TIME": 2,
+      "SKY": 0,
+      "MIRAGE": 2
+    }
+  },
+  {
+    "id": 42,
+    "name": "グランストリーム",
+    "type": "WIND",
+    "EP": 480,
+    "description": "【魔法攻撃S+／全体】暗闇120%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 7,
+      "TIME": 5,
+      "SKY": 0,
+      "MIRAGE": 5
+    }
+  },
+  {
+    "id": 43,
+    "name": "ライトニング",
+    "type": "WIND",
+    "EP": 150,
+    "description": "【魔法攻撃A／直線S】封技20%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 3,
+      "TIME": 0,
+      "SKY": 2,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 44,
+    "name": "プラズマウェイブ",
+    "type": "WIND",
+    "EP": 420,
+    "description": "【魔法攻撃SS／直線M】封技40%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 3,
+      "WIND": 5,
+      "TIME": 0,
+      "SKY": 3,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 45,
+    "name": "ラグナブラスト",
+    "type": "WIND",
+    "EP": 540,
+    "description": "【魔法攻撃X／直線L】封技80%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 5,
+      "WIND": 9,
+      "TIME": 0,
+      "SKY": 5,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 46,
+    "name": "シルフェンガード",
+    "type": "WIND",
+    "EP": 90,
+    "description": "【補助／味方・単体】5ターンADF↑／デバフ解除・無効",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 2,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 2
+    }
+  },
+  {
+    "id": 47,
+    "name": "シルフェンウィング",
+    "type": "WIND",
+    "EP": 270,
+    "description": "【補助／味方全体】5ターンATS・ADF↑／5ターン心眼／能力低下解除",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 4,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 4
+    }
+  },
+  {
+    "id": 48,
+    "name": "シルファリオン",
+    "type": "WIND",
+    "EP": 600,
+    "description": "【補助／味方・地点・円L】1回魔法反射／デバフ解除・無効",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 9,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 9
+    }
+  },
+  {
+    "id": 49,
+    "name": "ソウルブラー",
+    "type": "TIME",
+    "EP": 60,
+    "description": "【魔法攻撃B／単体】スタン大",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 1,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 50,
+    "name": "シャドウスピア",
+    "type": "TIME",
+    "EP": 150,
+    "description": "【魔法攻撃A／単体】即死10%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 2,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 51,
+    "name": "ヘル・ゲート",
+    "type": "TIME",
+    "EP": 180,
+    "description": "【魔法攻撃A+／扇L】毒90%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 2,
+      "WIND": 0,
+      "TIME": 3,
+      "SKY": 2,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 52,
+    "name": "ホワイトゲヘナ",
+    "type": "TIME",
+    "EP": 360,
+    "description": "【魔法攻撃S／地点・円M】暗闇30%／STR↓",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 5,
+      "SKY": 0,
+      "MIRAGE": 5
+    }
+  },
+  {
+    "id": 53,
+    "name": "デス・スクリーム",
+    "type": "TIME",
+    "EP": 480,
+    "description": "【魔法攻撃S+／全体】即死20%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 7,
+      "SKY": 0,
+      "MIRAGE": 7
+    }
+  },
+  {
+    "id": 54,
+    "name": "アビス・フォール",
+    "type": "TIME",
+    "EP": 660,
+    "description": "【魔法攻撃X+／円L】スタン大",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 9,
+      "SKY": 9,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 55,
+    "name": "クロックアップ",
+    "type": "TIME",
+    "EP": 60,
+    "description": "【補助／味方・単体】5ターンSPD・MOV↑／能力低下解除",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 1,
+      "SKY": 1,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 56,
+    "name": "クロックアップ改",
+    "type": "TIME",
+    "EP": 480,
+    "description": "【補助／味方・単体】加速／5ターンSPD・MOV↑↑／能力低下解除",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 5,
+      "SKY": 5,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 57,
+    "name": "アンチセプト",
+    "type": "TIME",
+    "EP": 180,
+    "description": "【妨害／単体】駆動解除／封魔200%／バフ消去",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 2,
+      "SKY": 0,
+      "MIRAGE": 2
+    }
+  },
+  {
+    "id": 58,
+    "name": "アンチセプトオール",
+    "type": "TIME",
+    "EP": 360,
+    "description": "【妨害／全体】駆動解除／封魔200%／バフ消去",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 3,
+      "SKY": 0,
+      "MIRAGE": 3
+    }
+  },
+  {
+    "id": 59,
+    "name": "オーバルダウン",
+    "type": "TIME",
+    "EP": 480,
+    "description": "【妨害／地点・円M】駆動解除／遅延大／全能力↓↓↓",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 9,
+      "SKY": 0,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 60,
+    "name": "ダークマター",
+    "type": "SKY",
+    "EP": 90,
+    "description": "【魔法攻撃B／地点・円S】遅延小／MOV↓↓",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 2,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 61,
+    "name": "ロストメビウス",
+    "type": "SKY",
+    "EP": 480,
+    "description": "【魔法攻撃SS／地点・円L】遅延中／MOV↓↓↓",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 7,
+      "SKY": 7,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 62,
+    "name": "セラス",
+    "type": "SKY",
+    "EP": 60,
+    "description": "【回復／味方・単体】復活／HP小回復",
+    "point": {
+      "EARTH": 0,
+      "WATER": 2,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 4,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 63,
+    "name": "アセラス",
+    "type": "SKY",
+    "EP": 240,
+    "description": "【回復／味方・単体】復活／HP大回復",
+    "point": {
+      "EARTH": 0,
+      "WATER": 4,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 6,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 64,
+    "name": "セレスティアル",
+    "type": "SKY",
+    "EP": 720,
+    "description": "【回復／味方全体】復活／HP全回復",
+    "point": {
+      "EARTH": 0,
+      "WATER": 9,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 9,
+      "MIRAGE": 0
+    }
+  },
+  {
+    "id": 65,
+    "name": "ファントムペイン",
+    "type": "MIRAGE",
+    "EP": 150,
+    "description": "【魔法攻撃A／地点・円M】混乱・睡眠・暗闇30%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 3
+    }
+  },
+  {
+    "id": 66,
+    "name": "シルバーソーン",
+    "type": "MIRAGE",
+    "EP": 420,
+    "description": "【魔法攻撃S+／円L】混乱60%",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 6
+    }
+  },
+  {
+    "id": 67,
+    "name": "セイント",
+    "type": "MIRAGE",
+    "EP": 120,
+    "description": "【補助／味方・単体】5ターン全能力↑／強運／能力低下解除",
+    "point": {
+      "EARTH": 0,
+      "WATER": 1,
+      "FIRE": 0,
+      "WIND": 1,
+      "TIME": 0,
+      "SKY": 1,
+      "MIRAGE": 2
+    }
+  },
+  {
+    "id": 68,
+    "name": "ゾディアック",
+    "type": "MIRAGE",
+    "EP": 480,
+    "description": "【補助／味方・地点・円L】5ターン全能力↑／強運／能力低下解除",
+    "point": {
+      "EARTH": 0,
+      "WATER": 3,
+      "FIRE": 0,
+      "WIND": 3,
+      "TIME": 0,
+      "SKY": 3,
+      "MIRAGE": 6
+    }
+  },
+  {
+    "id": 69,
+    "name": "カオスブランド",
+    "type": "MIRAGE",
+    "EP": 90,
+    "description": "【妨害／単体】混乱・毒90%／DEF・ADF・SPD↓↓",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 3
+    }
+  },
+  {
+    "id": 70,
+    "name": "サイレントクロス",
+    "type": "MIRAGE",
+    "EP": 480,
+    "description": "【妨害／地点・円L】封技・封魔100%／非運50%／バフ消去",
+    "point": {
+      "EARTH": 0,
+      "WATER": 0,
+      "FIRE": 0,
+      "WIND": 0,
+      "TIME": 0,
+      "SKY": 0,
+      "MIRAGE": 9
+    }
+  }
+]
