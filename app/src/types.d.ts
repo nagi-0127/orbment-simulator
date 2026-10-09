@@ -17,6 +17,12 @@ type Point = {
   MIRAGE: number;
 }
 
+interface BaseItem {
+  id: number;
+  name: string;
+  description: string;
+}
+
 interface BaseQuarz {
   id: number;
   name: string;
