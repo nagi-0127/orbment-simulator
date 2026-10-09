@@ -22,7 +22,7 @@ export const getZeroPoint = (): Point => {
  * @param targetList 
  * @returns 
  */
-export const getMaximumPoint = (targetList: BaseSkillQuarz[]): Point => {
+export const getMaximumPoint = (targetList: (BaseQuarz | BaseSkill)[]): Point => {
   const ret: Point = getZeroPoint()
   const keys = Object.keys(ret) as (keyof Point)[]
   targetList.forEach(t => {
@@ -113,7 +113,7 @@ const getQuartzListFromResult = (result: object, slots: Slot[], validQuartz: Qua
  * @param selectedQuartz 選択クオーツ
  * @returns Model
  */
-export const getModel = (character: Character, selectedSkills: { [key in Lines]: { requiredPoint: Point, selected: Skill[] } }, selectedQuartz: Quartz[],  requiredQuartz: Quartz[]): Model => {
+export const getModel = (character: Character, selectedSkills: { [key in Lines]: { requiredPoint: Point, selected: Skill[] } }, selectedQuartz: Quartz[], requiredQuartz: Quartz[]): Model => {
   const lineInfo = { ...character.orbment }
 
   const variables: { [key: string]: { [key: string]: any } } = {}
@@ -229,7 +229,7 @@ export const getModel = (character: Character, selectedSkills: { [key in Lines]:
       constraints[quartzId] = { max: 1 }
       // 必須クオーツは最小1(必ずセット)
       if (requiredQuartz.includes(quartz)) {
-        constraints[quartzId] = {...constraints[quartzId], min: 1}
+        constraints[quartzId] = { ...constraints[quartzId], min: 1 }
       }
     }
   })
@@ -303,12 +303,12 @@ export const parseSolution = (solution: Solution, character: Character, selected
  * @param n 検索最大件数
  * @returns 検索結果
  */
-export const searchQuartz = (character: Character, selectedSkills: { [key in Lines]: { requiredPoint: Point, selected: Skill[] } }, selectedQuartz: Quartz[],  requiredQuartz: Quartz[]=[], n: number = 1): ReadableStream<{ [key in Lines]?: (Quartz | null)[] }> => {
+export const searchQuartz = (character: Character, selectedSkills: { [key in Lines]: { requiredPoint: Point, selected: Skill[] } }, selectedQuartz: Quartz[], requiredQuartz: Quartz[] = [], n: number = 1): ReadableStream<{ [key in Lines]?: (Quartz | null)[] }> => {
   let model = getModel(character, selectedSkills, selectedQuartz, requiredQuartz)
   console.log(model)
 
   const worker: Worker = new Worker(new URL('@/util/solverWorker.ts', import.meta.url), { type: 'module' })
-  const stream = new ReadableStream<{ [key in Lines]?: (Quartz | null)[] } >({
+  const stream = new ReadableStream<{ [key in Lines]?: (Quartz | null)[] }>({
     start(controller) {
       let counter = 0;
       worker.onmessage = (ev: MessageEvent<Solution>) => {

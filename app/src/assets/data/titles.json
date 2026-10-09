@@ -3,5 +3,15 @@
         "id": 43,
         "name": "界の軌跡 -Farewell, O Zemuiria",
         "to": "/kai"
+    },
+    {
+        "id": 14,
+        "name": "空の軌跡 the 1st",
+        "to": "/sora1st"
+    },
+    {
+        "id": 15,
+        "name": "空の軌跡 the 2nd",
+        "to": "/sora2nd"
     }
 ]

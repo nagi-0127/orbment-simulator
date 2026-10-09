@@ -17,19 +17,26 @@ type Point = {
   MIRAGE: number;
 }
 
-interface BaseSkillQuarz {
+interface BaseQuarz {
+  id: number;
+  name: string;
+  type: Types;
+  description: string;
+  point: Point;
+}
+
+interface BaseSkill {
   id: number;
   name: string;
   description: string;
   point: Point;
 }
 
-interface Skill extends BaseSkillQuarz {
+interface Skill extends BaseSkill {
   line: Lines;
 }
 
-interface Quartz extends BaseSkillQuarz {
-  type: Types;
+interface Quartz extends BaseQuarz {
   line: Lines[];
 }
 
@@ -47,4 +54,24 @@ type Character = {
   id: number;
   name: string;
   orbment: Orbment;
+}
+
+type SlotSora = {
+  line: number;
+  no: number;
+  type: Types | null;
+}
+
+type CharacterSora = {
+  id: number;
+  name: string;
+  slots: SlotSora[]
+}
+
+/** 【空】同系統クオーツのグループ */
+type QuartzGroupSora = 'DEF' | 'STUN' | 'ATS' | 'HP' | 'STR' | 'CRT' | 'ADF' | 'ESC' | 'SPD' | 'INC' | 'HIT' | 'SAVEP' | 'JAM' | 'EP';
+
+type QuartzSora = BaseQuarz & {
+  type: Types;
+  group: QuartzGroupSora[];
 }
